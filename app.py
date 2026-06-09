@@ -28,6 +28,29 @@ st.set_page_config(
 )
 
 # ─────────────────────────────────────────────
+# INITIALISE SESSION STATE KEYS
+# ─────────────────────────────────────────────
+default_states = {
+    "complaint": "",
+    "age": 45,
+    "gender": "Male",
+    "hr": 88,
+    "sbp": 120,
+    "dbp": 78,
+    "spo2": 98,
+    "rr": 16,
+    "gcs": 15,
+    "temp": 37.0,
+    "wbc": 0.0,
+    "creat": 0.0,
+    "gluc": 0.0,
+    "hgb": 0.0,
+}
+for k, v in default_states.items():
+    if k not in st.session_state:
+        st.session_state[k] = v
+
+# ─────────────────────────────────────────────
 # GLOBAL CSS
 # ─────────────────────────────────────────────
 st.markdown("""
@@ -47,33 +70,68 @@ h1, h2, h3 { font-family: 'DM Serif Display', serif !important; }
 
 /* ── Sidebar ── */
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #0d1117 0%, #111827 100%);
-    border-right: 1px solid #1f2937;
+    background: linear-gradient(180deg, #090d14 0%, #0d1117 100%);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
 }
 [data-testid="stSidebar"] * { color: #e5e7eb !important; }
 [data-testid="stSidebar"] .stSlider > label,
 [data-testid="stSidebar"] .stNumberInput > label,
-[data-testid="stSidebar"] .stSelectbox > label { color: #9ca3af !important; font-size: 12px !important; }
+[data-testid="stSidebar"] .stSelectbox > label { color: #9ca3af !important; font-size: 11px !important; text-transform: uppercase; letter-spacing: 0.03em; }
 
 /* ── Cards ── */
 .triage-card {
-    background: #0d1117;
-    border: 1px solid #1f2937;
+    background: rgba(22, 27, 34, 0.4);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 16px;
     padding: 1.5rem;
     margin-bottom: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 /* ── Urgency badge ── */
-.badge-critical  { background:#FCEBEB; color:#7F1D1D; padding:6px 18px; border-radius:20px; font-weight:600; font-size:22px; display:inline-block; }
-.badge-urgent    { background:#FAEEDA; color:#7C2D12; padding:6px 18px; border-radius:20px; font-weight:600; font-size:22px; display:inline-block; }
-.badge-nonurgent { background:#EAF3DE; color:#14532D; padding:6px 18px; border-radius:20px; font-weight:600; font-size:22px; display:inline-block; }
+.badge-critical  { 
+    background: rgba(226, 75, 74, 0.1); 
+    color: #ff6b6b; 
+    border: 1px solid rgba(226, 75, 74, 0.4);
+    box-shadow: 0 0 15px rgba(226, 75, 74, 0.15);
+    text-shadow: 0 0 5px rgba(226, 75, 74, 0.3);
+    padding: 6px 20px; 
+    border-radius: 30px; 
+    font-weight: 600; 
+    font-size: 20px; 
+    display: inline-block; 
+}
+.badge-urgent    { 
+    background: rgba(245, 158, 11, 0.1); 
+    color: #fbbf24; 
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.15);
+    text-shadow: 0 0 5px rgba(245, 158, 11, 0.3);
+    padding: 6px 20px; 
+    border-radius: 30px; 
+    font-weight: 600; 
+    font-size: 20px; 
+    display: inline-block; 
+}
+.badge-nonurgent { 
+    background: rgba(16, 185, 129, 0.1); 
+    color: #34d399; 
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.15);
+    text-shadow: 0 0 5px rgba(16, 185, 129, 0.3);
+    padding: 6px 20px; 
+    border-radius: 30px; 
+    font-weight: 600; 
+    font-size: 20px; 
+    display: inline-block; 
+}
 
 /* ── Section headers ── */
 .section-label {
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .08em;
     font-weight: 600;
     color: #6b7280;
     margin-bottom: 8px;
@@ -85,15 +143,16 @@ h1, h2, h3 { font-family: 'DM Serif Display', serif !important; }
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 0;
-    border-bottom: 1px solid #1f2937;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     font-size: 14px;
 }
 .ddx-row:last-child { border-bottom: none; }
 
 /* ── Metric pill ── */
 .metric-pill {
-    background: #1f2937;
+    background: rgba(31, 41, 55, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 12px;
     padding: 12px 18px;
     text-align: center;
@@ -103,31 +162,63 @@ h1, h2, h3 { font-family: 'DM Serif Display', serif !important; }
 
 /* ── Alert box ── */
 .disclaimer {
-    background: #1c1917;
+    background: rgba(245, 158, 11, 0.05);
     border-left: 3px solid #f59e0b;
     border-radius: 0 8px 8px 0;
     padding: 10px 14px;
-    font-size: 12px;
-    color: #d97706;
+    font-size: 11px;
+    color: #fbbf24;
     margin-top: 1rem;
 }
 
 /* ── Streamlit overrides ── */
 .stTextArea textarea {
-    border-radius: 10px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    background-color: rgba(17, 24, 39, 0.3) !important;
     font-family: 'Outfit', sans-serif !important;
+    transition: all 0.2s ease !important;
 }
+.stTextArea textarea:focus {
+    border-color: rgba(226, 75, 74, 0.5) !important;
+    box-shadow: 0 0 0 2px rgba(226, 75, 74, 0.2) !important;
+}
+
+/* Base button overrides (Preset Buttons) */
 .stButton button {
     width: 100% !important;
     border-radius: 10px !important;
-    background: #E24B4A !important;
+    background: rgba(31, 41, 55, 0.4) !important;
+    color: #e5e7eb !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    padding: 0.4rem 0.8rem !important;
+    transition: all 0.2s ease !important;
+}
+.stButton button:hover {
+    background: rgba(31, 41, 55, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    color: white !important;
+    transform: translateY(-1px);
+}
+
+/* Primary Button Container Override */
+.primary-button-container .stButton button {
+    background: linear-gradient(135deg, #E24B4A 0%, #c53030 100%) !important;
     color: white !important;
     font-weight: 600 !important;
     font-size: 16px !important;
-    padding: 0.6rem !important;
+    padding: 0.75rem !important;
     border: none !important;
+    box-shadow: 0 4px 15px rgba(226, 75, 74, 0.3) !important;
+    border-radius: 12px !important;
 }
-.stButton button:hover { background: #c53030 !important; }
+.primary-button-container .stButton button:hover {
+    background: linear-gradient(135deg, #c53030 0%, #a62626 100%) !important;
+    box-shadow: 0 6px 20px rgba(226, 75, 74, 0.5) !important;
+    transform: translateY(-1px);
+}
 
 /* ── Tab styling ── */
 .stTabs [data-baseweb="tab"] {
@@ -188,34 +279,30 @@ st.markdown("<hr style='border:none;border-top:1px solid #1f2937;margin:1rem 0'>
 # ─────────────────────────────────────────────
 with st.sidebar:
     st.markdown("### 🩺 Patient Vitals")
-    st.markdown("<p style='font-size:12px;color:#6b7280'>Enter measured values. Leave at 0 if unavailable.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:12px;color:#8892b0'>Configure patient clinical profile below.</p>", unsafe_allow_html=True)
 
-    st.markdown("**Demographics**")
-    age    = st.number_input("Age (years)",  min_value=1,  max_value=120, value=45, step=1)
-    gender = st.selectbox("Gender", ["Male", "Female", "Other"])
+    st.markdown("<div style='font-size:12px;font-weight:600;color:#a78bfa;margin-top:16px;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.05em'>📋 Demographics</div>", unsafe_allow_html=True)
+    age    = st.number_input("Age (years)",  min_value=1,  max_value=120, key="age", step=1)
+    gender = st.selectbox("Gender", ["Male", "Female", "Other"], key="gender")
 
-    st.markdown("**Haemodynamics**")
-    hr  = st.slider("Heart Rate (bpm)",      40,  200,  88)
-    sbp = st.slider("Systolic BP (mmHg)",    60,  250, 120)
-    dbp = st.slider("Diastolic BP (mmHg)",   30,  150,  78)
+    st.markdown("<div style='font-size:12px;font-weight:600;color:#ff6b6b;margin-top:16px;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.05em'>💓 Haemodynamics</div>", unsafe_allow_html=True)
+    hr  = st.slider("Heart Rate (bpm)",      40,  200, key="hr")
+    sbp = st.slider("Systolic BP (mmHg)",    60,  250, key="sbp")
+    dbp = st.slider("Diastolic BP (mmHg)",   30,  150, key="dbp")
 
-    st.markdown("**Respiratory & Neuro**")
-    spo2 = st.slider("SpO₂ (%)",             50,  100,  98)
-    rr   = st.slider("Respiratory Rate (/min)", 6, 60,  16)
-    gcs  = st.slider("GCS",                   3,  15,  15)
+    st.markdown("<div style='font-size:12px;font-weight:600;color:#60a5fa;margin-top:16px;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.05em'>🫁 Respiration & Neuro</div>", unsafe_allow_html=True)
+    spo2 = st.slider("SpO₂ (%)",             50,  100, key="spo2")
+    rr   = st.slider("Respiratory Rate (/min)", 6, 60, key="rr")
+    gcs  = st.slider("GCS (Neurological)",    3,  15, key="gcs")
 
-    st.markdown("**Temperature**")
-    temp = st.number_input("Temperature (°C)", min_value=30.0, max_value=43.0, value=37.0, step=0.1)
+    st.markdown("<div style='font-size:12px;font-weight:600;color:#fbbf24;margin-top:16px;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.05em'>🌡️ Temperature & Labs</div>", unsafe_allow_html=True)
+    temp = st.number_input("Temperature (°C)", min_value=30.0, max_value=43.0, key="temp", step=0.1)
 
-    st.markdown("**Labs (optional)**")
-    wbc   = st.number_input("WBC (×10⁹/L)",    0.0, 50.0, 0.0, step=0.1,
-                            help="0 = not measured")
-    creat = st.number_input("Creatinine (mg/dL)", 0.0, 15.0, 0.0, step=0.1,
-                            help="0 = not measured")
-    gluc  = st.number_input("Glucose (mg/dL)", 0.0, 800.0, 0.0, step=1.0,
-                            help="0 = not measured")
-    hgb   = st.number_input("Haemoglobin (g/dL)", 0.0, 25.0, 0.0, step=0.1,
-                            help="0 = not measured")
+    with st.expander("🔬 Optional Laboratory Values", expanded=False):
+        wbc   = st.number_input("WBC (×10⁹/L)",    0.0, 50.0, key="wbc", step=0.1, help="0 = not measured")
+        creat = st.number_input("Creatinine (mg/dL)", 0.0, 15.0, key="creat", step=0.1, help="0 = not measured")
+        gluc  = st.number_input("Glucose (mg/dL)", 0.0, 800.0, key="gluc", step=1.0, help="0 = not measured")
+        hgb   = st.number_input("Haemoglobin (g/dL)", 0.0, 25.0, key="hgb", step=0.1, help="0 = not measured")
 
     st.markdown("---")
     st.markdown("**Chest X-ray (optional)**")
@@ -245,36 +332,69 @@ with col_input:
             "diaphoresis, and nausea for the past 40 minutes. "
             "History of hypertension and T2DM."
         ),
+        key="complaint",
         label_visibility="collapsed",
     )
 
     # Example buttons
-    st.markdown("<p style='font-size:12px;color:#6b7280;margin-top:4px'>Quick examples:</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size:12px;color:#8892b0;margin-top:4px;font-weight:500'>Quick Clinical Profiles (Prefills Text & Vitals):</p>", unsafe_allow_html=True)
     eg1, eg2, eg3 = st.columns(3)
-    if eg1.button("🔴 STEMI"):
-        st.session_state["complaint_prefill"] = (
-            "Sudden crushing chest pain radiating to left arm and jaw, profuse diaphoresis, nausea. Onset 30 min ago. History of hypertension."
-        )
-        st.rerun()
-    if eg2.button("🟡 Pneumonia"):
-        st.session_state["complaint_prefill"] = (
-            "Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain, shortness of breath on exertion."
-        )
-        st.rerun()
-    if eg3.button("🟢 URTI"):
-        st.session_state["complaint_prefill"] = (
-            "Runny nose, sore throat, mild dry cough for 2 days. No fever. Well-appearing, good oral intake."
-        )
+    
+    if eg1.button("🔴 Critical: STEMI"):
+        st.session_state["complaint"] = "Sudden crushing chest pain radiating to left arm and jaw, profuse diaphoresis, nausea. Onset 30 min ago. History of hypertension."
+        st.session_state["age"] = 62
+        st.session_state["gender"] = "Male"
+        st.session_state["hr"] = 118
+        st.session_state["sbp"] = 88
+        st.session_state["dbp"] = 55
+        st.session_state["spo2"] = 91
+        st.session_state["rr"] = 24
+        st.session_state["gcs"] = 14
+        st.session_state["temp"] = 36.9
+        st.session_state["wbc"] = 11.2
+        st.session_state["creat"] = 1.2
+        st.session_state["gluc"] = 180.0
+        st.session_state["hgb"] = 13.5
         st.rerun()
 
-    if "complaint_prefill" in st.session_state:
-        complaint = st.session_state.pop("complaint_prefill")
-        # Re-render with prefilled text
-        st.text_area("complaint_hidden", value=complaint, key="hidden_ta",
-                     label_visibility="collapsed", height=1)
+    if eg2.button("🟡 Urgent: Pneumonia"):
+        st.session_state["complaint"] = "Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain, shortness of breath on exertion."
+        st.session_state["age"] = 48
+        st.session_state["gender"] = "Female"
+        st.session_state["hr"] = 102
+        st.session_state["sbp"] = 120
+        st.session_state["dbp"] = 78
+        st.session_state["spo2"] = 93
+        st.session_state["rr"] = 22
+        st.session_state["gcs"] = 15
+        st.session_state["temp"] = 38.8
+        st.session_state["wbc"] = 16.5
+        st.session_state["creat"] = 0.9
+        st.session_state["gluc"] = 120.0
+        st.session_state["hgb"] = 12.8
+        st.rerun()
+
+    if eg3.button("🟢 Stable: URTI"):
+        st.session_state["complaint"] = "Runny nose, sore throat, mild dry cough for 2 days. No fever. Well-appearing, good oral intake."
+        st.session_state["age"] = 24
+        st.session_state["gender"] = "Female"
+        st.session_state["hr"] = 72
+        st.session_state["sbp"] = 120
+        st.session_state["dbp"] = 80
+        st.session_state["spo2"] = 99
+        st.session_state["rr"] = 14
+        st.session_state["gcs"] = 15
+        st.session_state["temp"] = 36.7
+        st.session_state["wbc"] = 7.4
+        st.session_state["creat"] = 0.8
+        st.session_state["gluc"] = 95.0
+        st.session_state["hgb"] = 14.1
+        st.rerun()
 
     st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<div class='primary-button-container'>", unsafe_allow_html=True)
     run_btn = st.button("⚡ Run Triage Analysis", use_container_width=True)
+    st.markdown("</div>", unsafe_allow_html=True)
 
     # Modality status
     st.markdown("<div class='section-label'>Active Modalities</div>", unsafe_allow_html=True)
@@ -507,18 +627,26 @@ with col_results:
                                 "Token saliency from BioBERT attention rollout. "
                                 "Darker red = higher importance.</p>",
                                 unsafe_allow_html=True)
-                    st.markdown(attn_html, unsafe_allow_html=True)
+                    st.markdown(
+                        f"<div style='background:rgba(17, 24, 39, 0.45); border: 1px solid rgba(255, 255, 255, 0.08); padding: 1.25rem; border-radius: 12px; max-height: 250px; overflow-y: auto;'>"
+                        f"{attn_html}"
+                        f"</div>",
+                        unsafe_allow_html=True
+                    )
                 else:
                     st.info("Attention heatmap not available.")
 
             with xai_tabs[2]:
                 gradcam = result.get("gradcam_overlay")
                 if gradcam is not None:
-                    st.image(gradcam, caption="GradCAM saliency overlay",
-                             use_container_width=True)
-                    st.markdown("<p style='font-size:11px;color:#6b7280'>"
-                                "Warm regions indicate areas of high importance for the "
-                                "EfficientNet-B3 prediction.</p>",
+                    col_xray_orig, col_xray_cam = st.columns(2)
+                    with col_xray_orig:
+                        st.image(xray_img, caption="Original Chest X-ray", use_container_width=True)
+                    with col_xray_cam:
+                        st.image(gradcam, caption="GradCAM Activation Overlay", use_container_width=True)
+                    st.markdown("<p style='font-size:11px;color:#8892b0;margin-top:8px'>"
+                                "Warm regions (red/yellow) indicate anatomical structures of high importance for the "
+                                "classification decision.</p>",
                                 unsafe_allow_html=True)
                 elif xray_file is None:
                     st.info("Upload a chest X-ray to see GradCAM visualisation.")
