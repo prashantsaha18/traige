@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model checkpoints (use Git LFS or HF Hub instead)
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/*.onnx
+
+# IMPORTANT: Never commit patient data
+data/mimic*/
+data/physionet*/
+*.csv.gz
+*.psv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+wandb/
+mlruns/
+
+# Large files
+*.h5
+*.hdf5
+*.pkl

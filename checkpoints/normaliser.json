@@ -1,0 +1,50 @@
+{
+  "heart_rate": {
+    "mean": 85.0,
+    "std": 18.0
+  },
+  "systolic_bp": {
+    "mean": 122.0,
+    "std": 22.0
+  },
+  "diastolic_bp": {
+    "mean": 78.0,
+    "std": 14.0
+  },
+  "spo2": {
+    "mean": 96.5,
+    "std": 3.5
+  },
+  "temperature": {
+    "mean": 37.2,
+    "std": 0.8
+  },
+  "respiratory_rate": {
+    "mean": 18.0,
+    "std": 5.0
+  },
+  "gcs": {
+    "mean": 14.2,
+    "std": 1.8
+  },
+  "age": {
+    "mean": 48.0,
+    "std": 18.0
+  },
+  "wbc": {
+    "mean": 10.5,
+    "std": 5.0
+  },
+  "creatinine": {
+    "mean": 1.1,
+    "std": 0.6
+  },
+  "glucose": {
+    "mean": 130.0,
+    "std": 60.0
+  },
+  "hemoglobin": {
+    "mean": 12.5,
+    "std": 2.2
+  }
+}

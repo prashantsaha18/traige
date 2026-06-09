@@ -1,0 +1,1001 @@
+age,gender,chief_complaint,condition,label,label_id,heart_rate,systolic_bp,diastolic_bp,spo2,temperature,respiratory_rate,gcs,wbc,creatinine,glucose,hemoglobin,has_xray
+28,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,107.0,122.2,78.0,98.4,38.4,19.7,15,16.0,0.8,100.9,12.8,False
+13,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,70.6,119.1,70.9,99.1,36.5,14.3,15,7.8,0.8,99.3,,False
+35,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,73.5,121.1,78.4,98.4,37.2,14.4,15,10.3,0.7,93.4,12.3,False
+18,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,88.7,214.5,125.6,98.4,36.9,16.0,15,9.8,1.6,156.4,12.7,True
+63,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,94.5,187.1,114.0,97.4,36.7,19.0,15,9.6,1.2,138.3,13.8,False
+6,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,74.7,114.6,77.4,99.4,36.8,14.4,15,6.4,0.8,,14.9,False
+5,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,79.9,113.4,77.8,98.8,37.2,14.3,15,10.4,0.7,,14.3,False
+23,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,99.0,125.4,84.1,97.5,37.8,20.8,15,19.8,,101.4,11.5,True
+38,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,72.5,112.8,77.5,98.5,36.5,16.4,15,,0.8,86.8,16.0,True
+34,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,100.7,130.5,77.5,97.4,38.8,21.6,15,21.1,0.9,127.0,13.9,False
+23,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,96.4,213.1,122.5,97.3,37.1,16.9,15,7.8,1.4,110.2,13.0,True
+71,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,105.3,133.2,75.6,93.0,38.3,21.4,14,19.3,1.1,147.9,12.8,True
+37,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,115.8,92.3,59.7,88.2,37.2,21.3,15,10.4,1.1,183.8,12.1,True
+34,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,101.0,126.8,82.5,92.0,38.3,18.8,15,20.0,1.0,127.0,12.4,False
+36,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,76.7,120.9,73.4,98.6,36.8,14.8,15,6.9,0.9,93.6,13.1,False
+65,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,104.3,188.9,103.9,95.9,37.0,17.0,10,11.0,1.0,127.5,11.7,False
+20,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,73.8,122.3,74.0,97.3,37.3,17.9,15,7.8,0.8,,12.1,True
+44,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,74.3,119.0,79.2,98.8,36.7,16.7,15,6.8,0.8,102.9,14.7,True
+38,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,76.1,118.8,75.7,97.3,37.2,16.4,15,10.0,0.8,86.3,12.3,False
+30,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,91.5,128.7,86.2,97.8,38.3,19.5,15,16.4,0.8,106.0,13.0,True
+61,F,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,127.8,99.1,68.0,91.0,37.2,28.0,15,11.8,1.2,131.0,,False
+64,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,76.3,119.3,73.7,99.6,36.9,15.7,15,7.3,0.7,84.2,12.6,True
+31,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,96.8,127.6,86.6,98.1,39.2,17.2,15,,1.0,112.2,,True
+46,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,96.9,120.3,84.3,93.9,38.3,25.3,14,16.3,1.3,155.8,12.1,True
+30,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,88.4,204.3,126.0,98.1,36.7,19.1,15,8.7,1.3,156.9,11.1,False
+28,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,67.4,110.2,78.0,100.0,36.8,14.3,15,6.1,0.9,100.1,13.7,False
+44,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,88.8,120.7,72.4,98.9,38.8,16.2,15,14.3,1.0,94.1,,False
+58,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,107.3,120.8,87.3,97.2,39.2,17.1,15,,1.1,90.9,14.7,False
+29,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,89.3,203.2,119.9,97.1,36.7,18.9,15,8.4,1.8,106.8,11.6,True
+26,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,65.3,122.5,75.0,99.1,37.0,14.2,15,,0.7,91.7,13.8,False
+43,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,81.9,201.0,106.4,94.5,36.8,17.2,9,12.9,,165.6,14.1,True
+27,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,100.9,120.8,73.0,99.6,38.1,21.7,15,16.3,0.9,103.9,13.2,False
+9,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,70.7,122.6,78.2,98.3,36.9,14.5,15,7.6,0.9,97.3,13.5,True
+66,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,97.6,132.9,75.4,99.4,38.1,19.9,15,,1.0,113.1,12.2,False
+60,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,91.6,125.2,80.8,98.4,38.3,17.1,15,19.1,1.1,114.2,12.8,False
+47,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,77.8,120.6,71.8,99.9,36.6,14.4,15,7.7,0.7,89.1,15.6,False
+43,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,69.0,118.8,75.9,99.5,36.9,14.4,15,8.7,0.8,100.6,13.4,True
+52,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,98.0,195.4,120.7,96.7,37.0,19.1,15,10.0,1.2,121.5,12.4,False
+68,M,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,127.1,93.0,68.7,98.7,36.9,29.6,12,17.2,2.3,528.5,13.4,True
+49,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,73.4,126.2,71.8,99.8,36.7,14.4,15,7.9,0.7,85.9,12.9,True
+39,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,72.6,115.7,74.9,98.0,36.8,16.8,15,8.8,0.9,102.2,16.0,False
+28,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,97.5,127.6,73.0,92.7,39.4,21.6,14,,0.8,158.6,12.1,True
+40,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,77.0,117.8,77.6,98.9,36.7,16.8,15,8.5,0.9,104.5,14.5,True
+56,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,94.1,120.9,86.8,98.4,38.1,20.7,15,16.6,0.9,95.4,13.7,True
+25,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,70.0,119.3,74.9,99.1,36.5,14.2,15,8.0,0.7,102.1,13.1,False
+14,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,70.7,118.9,73.8,99.8,37.1,14.8,15,8.7,0.7,96.2,14.3,True
+31,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,72.4,112.6,77.8,99.4,36.9,15.3,15,6.5,0.8,91.1,13.6,True
+76,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,105.8,101.9,73.9,90.3,37.5,26.1,15,10.8,1.0,144.5,12.6,True
+27,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,76.5,117.3,70.3,99.9,36.8,16.4,15,7.9,0.9,85.1,15.7,True
+16,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,84.3,127.3,76.1,100.0,36.8,16.1,15,9.5,0.9,102.7,,False
+63,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,92.3,132.0,78.5,98.7,38.3,20.0,15,20.9,1.1,,13.7,False
+23,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,77.8,115.1,71.4,99.0,37.0,15.5,15,7.8,1.0,90.4,12.1,True
+31,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,80.7,120.6,71.4,99.4,37.0,17.4,15,7.3,0.9,,14.6,True
+73,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,113.5,90.9,58.2,85.0,37.4,29.2,15,13.3,1.0,134.1,,False
+65,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,68.8,112.3,72.2,97.5,36.8,14.3,15,10.5,0.8,90.3,14.1,False
+64,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,73.0,123.1,69.9,99.4,36.7,15.2,15,,0.8,89.4,14.6,False
+69,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,85.3,193.7,115.2,96.5,37.4,16.2,14,,1.3,173.8,11.9,False
+59,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,103.6,116.9,71.0,93.4,38.8,22.2,14,21.7,1.3,128.2,13.0,False
+8,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,68.6,124.9,70.4,98.4,36.6,14.2,15,6.1,0.8,,12.9,False
+48,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,67.9,119.1,75.5,99.9,36.7,14.5,15,6.2,0.7,87.1,14.9,False
+10,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,83.8,127.9,73.6,97.4,37.3,15.8,15,9.2,1.0,97.7,14.9,False
+9,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,75.7,114.0,72.2,98.9,36.8,16.8,15,,0.8,100.8,12.4,False
+29,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,92.4,119.1,85.8,98.2,38.2,21.3,15,19.7,0.8,126.8,12.1,False
+56,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,69.7,116.1,80.2,98.6,37.0,16.3,15,8.3,0.8,95.6,13.6,True
+10,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,78.5,114.3,75.0,99.2,37.4,14.4,15,8.3,0.8,87.7,13.0,False
+49,M,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,123.4,107.7,63.9,97.3,36.4,28.0,13,15.1,1.9,568.1,15.2,True
+56,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,71.4,122.5,73.7,98.3,36.8,15.6,15,8.7,0.8,95.3,14.0,True
+38,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,77.1,123.5,77.3,98.5,36.6,15.4,15,7.7,0.8,102.1,12.2,False
+20,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,74.4,123.4,71.4,100.0,36.5,14.5,15,8.4,0.9,82.7,14.6,False
+51,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,91.2,121.4,73.5,97.1,37.8,20.6,15,15.0,0.8,120.5,13.3,True
+34,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,70.7,115.8,75.6,98.9,36.7,15.2,15,6.6,0.9,82.0,13.5,False
+30,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,97.7,120.6,73.7,93.9,39.4,20.9,14,20.0,1.3,129.5,12.8,False
+65,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,136.2,80.4,47.4,90.3,39.7,26.3,11,23.3,2.8,268.2,9.3,False
+56,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,108.8,125.0,81.9,92.0,39.2,22.3,15,14.1,1.0,161.6,13.7,False
+26,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,86.4,215.8,124.5,98.3,37.1,17.7,15,9.6,1.7,132.0,11.5,True
+62,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,102.8,122.1,79.2,98.2,38.4,21.0,15,21.2,1.0,129.8,13.4,False
+45,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,91.0,117.0,71.8,94.0,38.7,25.1,15,15.2,1.0,115.8,13.7,True
+54,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,73.5,114.6,74.3,97.6,37.4,15.0,15,10.0,1.0,103.7,13.1,True
+26,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,84.7,198.8,120.8,98.9,37.1,18.9,15,8.8,1.5,148.0,13.6,False
+45,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,85.1,206.7,116.1,97.2,36.8,19.9,15,7.2,1.3,159.8,11.7,False
+51,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,91.1,118.6,81.7,93.9,38.9,21.8,15,19.9,0.8,163.8,10.3,False
+48,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,91.5,124.2,81.1,99.7,38.1,21.0,15,21.5,0.9,,12.5,False
+51,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,98.4,116.6,75.7,94.3,39.0,21.9,14,,1.2,116.7,,False
+18,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,72.2,110.7,70.0,99.8,36.6,14.8,15,6.9,0.8,82.1,13.0,True
+74,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,144.2,89.7,53.4,94.3,39.7,26.9,10,19.2,3.4,213.4,10.4,False
+18,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,91.7,204.9,110.6,96.4,37.2,20.0,15,7.9,1.6,141.4,13.3,False
+23,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,83.9,127.4,75.8,98.1,36.9,17.7,15,10.5,0.8,105.5,12.2,True
+75,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,124.2,70.7,44.8,90.0,39.1,34.0,11,27.3,1.8,221.3,9.6,False
+10,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,78.8,127.3,73.4,99.2,37.0,15.0,15,8.5,0.9,109.1,14.0,False
+37,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,127.1,101.7,60.3,96.8,37.8,35.6,11,13.0,2.4,572.1,15.6,False
+17,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,76.4,127.9,68.5,98.1,36.6,15.6,15,7.5,1.0,83.5,13.7,False
+52,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,73.1,116.4,69.7,99.4,36.9,15.0,15,8.3,0.7,81.0,14.6,True
+47,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,99.0,114.5,78.9,94.9,38.5,21.6,15,14.9,1.0,110.8,13.8,True
+54,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,76.7,113.8,69.5,99.2,37.0,14.7,15,6.0,1.0,80.7,15.3,True
+59,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,76.0,120.9,81.7,98.1,36.9,15.8,15,7.3,1.0,95.5,13.1,True
+52,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,124.5,72.6,51.5,91.4,39.0,26.7,9,23.0,2.8,262.5,11.1,False
+6,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,72.3,112.0,80.3,98.5,37.0,15.6,15,10.9,0.9,91.7,13.9,False
+56,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,99.6,118.4,79.1,94.3,38.7,23.1,14,21.4,1.1,160.9,10.5,False
+42,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,76.7,117.8,76.1,99.7,36.5,15.5,15,8.8,0.9,101.5,13.4,False
+61,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,122.3,71.7,48.6,94.5,39.4,25.3,8,19.0,2.6,178.3,11.0,False
+58,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,101.7,122.8,79.8,93.4,39.0,22.3,14,19.0,1.0,,10.6,True
+61,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,142.0,70.6,43.9,95.0,40.2,26.5,11,26.2,3.1,220.8,9.5,True
+21,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,101.6,133.3,71.4,93.2,38.7,21.0,14,16.3,1.3,145.0,12.8,False
+39,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,73.4,124.9,69.2,99.7,36.9,16.3,15,8.4,0.8,81.8,13.5,False
+47,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,76.9,118.5,68.2,98.2,36.7,15.1,15,6.9,1.0,91.9,12.6,False
+47,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,108.5,90.0,67.8,92.0,37.2,23.0,15,11.3,1.2,148.3,12.1,False
+44,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,93.7,131.8,78.4,99.7,39.1,16.2,15,18.7,0.9,,11.1,True
+46,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,98.3,128.8,82.1,94.1,38.3,24.4,14,16.8,1.1,107.4,13.7,False
+51,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,66.1,110.7,73.3,99.9,36.5,15.4,15,7.9,1.0,84.7,14.3,False
+60,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,79.9,125.8,68.8,98.8,36.6,16.1,15,8.9,0.7,,,False
+18,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,99.8,126.0,78.8,93.6,38.3,25.4,15,19.8,,177.6,13.7,False
+52,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,109.6,115.3,73.2,92.1,39.2,21.4,15,16.6,1.0,130.4,,False
+19,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,94.1,120.7,81.0,98.4,38.3,20.3,15,21.3,0.9,97.0,13.1,True
+69,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,105.2,98.5,62.6,85.8,37.0,30.6,13,13.3,,125.9,12.4,False
+73,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,98.6,122.0,73.9,98.7,38.3,17.3,15,14.9,0.7,100.7,11.1,False
+32,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,107.4,116.2,72.2,97.6,38.9,17.1,15,16.8,1.0,124.2,12.0,True
+22,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,74.0,115.1,68.1,98.3,36.8,14.0,15,6.4,0.8,90.5,14.1,False
+70,F,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,103.8,173.7,100.5,96.5,37.0,19.5,12,8.5,,165.2,13.0,False
+27,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,94.2,198.5,124.1,98.9,36.6,19.6,15,8.0,1.4,100.7,13.9,True
+22,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,106.1,128.2,82.1,99.6,38.0,18.1,15,17.4,1.0,96.4,13.5,False
+57,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,92.4,123.3,71.4,93.4,39.2,22.3,14,18.9,1.1,133.5,13.3,False
+48,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,77.2,114.5,77.7,100.0,36.5,15.2,15,8.4,0.9,90.8,12.7,True
+60,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,88.9,123.3,83.3,97.9,38.8,20.5,15,18.7,1.0,108.5,11.1,False
+49,F,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,144.5,80.7,58.8,90.7,40.4,25.8,10,21.3,,237.0,11.9,True
+25,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,106.7,131.8,70.5,93.5,38.3,18.6,15,14.2,1.2,153.0,11.5,True
+60,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,77.1,116.8,81.9,98.4,37.3,15.4,15,9.3,0.9,102.1,13.2,False
+42,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,90.3,192.4,114.4,96.8,37.1,18.1,15,8.7,1.5,120.5,13.0,False
+47,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,68.8,113.2,70.1,99.3,36.5,14.3,15,8.0,0.9,91.9,13.3,True
+50,F,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,122.1,86.9,58.8,95.2,37.3,30.3,11,13.1,1.8,486.9,14.0,False
+42,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,98.4,207.3,129.1,97.3,37.1,19.4,15,7.0,1.2,157.7,12.3,True
+6,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,74.1,114.1,75.9,98.8,36.9,14.9,15,8.3,0.8,90.7,12.8,False
+56,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,76.6,114.4,73.4,98.7,36.7,15.9,15,7.7,0.9,97.0,13.8,True
+71,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,101.9,130.2,82.3,97.6,38.4,19.8,15,14.8,0.9,106.8,12.0,False
+67,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,90.9,123.7,79.1,99.1,38.2,16.7,15,18.2,0.9,128.2,14.5,False
+52,M,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,133.8,81.0,41.9,96.0,40.4,28.6,8,25.0,3.4,188.7,11.9,False
+7,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,68.1,121.3,77.7,98.7,36.7,15.5,15,6.4,0.7,83.8,,False
+60,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,122.5,91.3,67.2,88.7,36.9,20.3,14,,1.2,180.0,,False
+47,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,76.9,116.9,69.5,99.1,36.8,14.7,15,6.8,0.8,87.7,15.7,False
+26,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,68.7,122.2,79.5,99.1,36.7,14.8,15,6.1,0.7,90.5,,True
+65,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,102.3,125.6,78.8,97.9,37.9,21.4,15,14.3,1.0,127.4,13.1,False
+56,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,76.5,123.3,78.1,98.9,36.8,16.8,15,7.9,0.9,103.9,12.1,False
+39,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,107.9,121.6,82.2,95.7,38.3,22.2,15,17.8,1.3,112.4,,False
+24,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,70.7,116.1,77.7,98.8,37.3,14.3,15,10.2,1.0,106.3,13.0,True
+53,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,75.7,123.7,75.6,98.3,36.9,14.6,15,8.2,0.9,100.6,16.0,True
+22,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,97.9,199.8,125.1,97.0,36.7,16.8,15,7.4,1.5,151.6,12.8,False
+18,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,73.1,117.3,75.6,99.3,36.6,14.4,15,8.7,0.8,84.6,14.5,True
+20,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,66.9,119.6,69.7,99.9,37.0,15.8,15,9.0,0.9,93.4,14.8,False
+58,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,68.8,121.3,75.5,99.3,36.8,16.3,15,9.0,,87.1,12.5,False
+31,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,82.2,114.5,73.2,99.7,37.3,17.3,15,,1.0,107.1,13.3,False
+71,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,102.8,128.9,71.7,92.7,38.7,20.4,14,15.9,1.3,158.7,12.6,False
+51,M,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,113.4,102.9,56.6,86.2,37.0,23.5,13,12.9,1.1,135.7,11.7,True
+41,F,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,132.0,95.9,69.0,94.6,37.6,32.5,14,16.6,2.0,,,False
+76,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,123.3,90.9,58.6,85.0,37.4,27.7,15,13.4,1.1,140.7,12.1,True
+57,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,100.0,92.2,65.6,88.2,36.5,26.2,15,14.0,1.1,172.5,,False
+56,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,140.9,83.8,49.6,92.5,40.3,25.7,9,26.8,2.5,208.1,11.4,False
+54,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,101.3,130.8,72.9,97.3,38.9,16.8,15,21.4,0.7,97.9,14.9,False
+30,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,80.1,117.4,70.3,98.9,37.1,17.8,15,8.4,0.8,106.5,14.1,True
+59,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,88.3,131.6,81.7,97.5,38.8,20.8,15,20.9,1.0,118.1,,False
+11,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,73.4,116.6,72.6,99.7,36.5,14.8,15,7.1,0.7,89.8,14.7,False
+64,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,103.9,124.5,85.9,97.1,38.0,20.1,15,16.7,0.8,121.0,13.0,False
+65,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,104.9,174.2,113.0,93.6,36.9,16.6,10,8.1,0.9,159.8,11.4,False
+55,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,73.9,125.9,75.2,99.3,36.5,16.9,15,,0.7,89.8,,False
+46,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,123.7,91.8,57.3,92.7,36.7,31.7,15,10.8,1.1,145.7,11.8,False
+61,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,96.8,89.6,60.5,93.0,37.0,23.0,14,13.4,1.3,217.4,,True
+18,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,84.0,124.8,74.3,100.0,37.0,14.8,15,10.9,0.9,89.1,13.7,False
+63,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,90.2,130.7,84.4,99.7,38.4,16.1,15,18.0,,98.6,12.8,False
+21,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,103.2,126.4,71.1,95.8,38.5,23.6,15,,0.9,123.4,12.6,False
+38,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,72.1,122.9,76.7,97.2,37.3,14.9,15,9.2,0.9,104.1,12.6,True
+55,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,95.4,188.8,115.0,97.5,36.9,16.5,15,8.6,1.7,129.1,12.8,False
+65,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,75.6,118.0,72.8,99.8,36.8,14.1,15,8.4,0.7,83.6,12.3,False
+10,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,78.6,114.4,76.7,98.8,37.0,16.0,15,7.5,0.9,84.1,15.3,False
+76,F,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,129.9,70.6,53.7,91.0,39.2,25.9,10,26.3,2.0,180.2,9.1,False
+65,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,121.8,98.0,66.1,93.6,36.9,25.3,14,14.3,1.4,163.9,13.1,False
+54,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,76.9,114.5,73.0,98.2,36.9,16.7,15,7.2,1.0,103.8,13.1,False
+46,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,130.3,82.7,56.5,91.9,39.2,29.5,11,23.3,2.7,226.0,11.8,False
+19,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,99.3,216.4,113.6,97.8,36.6,18.2,15,9.1,1.7,132.3,,True
+34,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,75.8,114.9,77.2,100.0,37.3,17.9,15,10.7,1.0,107.4,13.0,False
+47,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,72.2,123.4,80.6,98.3,37.1,17.5,15,10.9,0.9,86.1,13.1,True
+36,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,126.3,90.8,63.1,89.0,36.8,27.1,15,12.9,1.2,,11.6,True
+43,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,67.8,116.2,69.4,99.7,36.7,15.3,15,6.5,0.8,87.4,14.6,True
+80,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,127.0,102.9,62.3,98.5,37.0,22.8,11,18.6,2.9,432.9,12.8,False
+55,F,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,120.2,71.8,40.3,91.3,39.5,31.9,11,,,192.3,9.6,False
+56,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,80.1,122.5,70.6,97.6,37.0,17.4,15,9.6,0.8,94.4,14.5,False
+18,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,67.2,110.5,69.8,99.7,36.7,14.2,15,8.5,0.9,84.0,14.1,True
+61,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,71.8,114.0,80.4,99.5,37.4,15.1,15,10.1,0.8,96.4,14.3,True
+28,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,93.6,116.9,80.8,98.5,38.0,19.6,15,21.1,0.8,120.1,14.7,False
+43,M,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,126.6,72.5,48.4,90.7,38.9,28.5,10,26.7,3.2,230.7,10.1,False
+12,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,77.1,115.7,76.8,97.3,36.9,17.3,15,,0.9,108.9,12.5,False
+65,F,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,96.9,97.1,52.7,89.4,36.8,24.6,15,13.1,1.2,194.5,11.6,True
+76,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,106.8,101.4,73.2,88.3,37.1,26.0,14,9.1,0.8,108.9,11.1,True
+55,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,75.2,117.1,68.3,98.5,36.9,16.9,15,7.3,0.9,101.9,15.5,False
+27,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,90.6,121.9,75.3,93.8,38.4,24.1,14,17.1,1.1,170.6,12.7,False
+49,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,72.4,119.2,68.5,98.8,37.0,14.2,15,7.4,,97.9,12.7,True
+67,F,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,83.7,184.7,117.2,96.7,37.4,18.3,10,8.2,1.2,113.8,12.1,False
+36,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,67.0,125.7,72.4,99.6,36.9,16.3,15,7.7,0.8,85.5,13.2,False
+7,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,77.3,115.1,81.0,97.0,36.8,17.4,15,,,105.0,13.3,False
+50,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,96.1,190.2,98.3,94.7,36.8,17.5,11,10.7,0.9,,14.7,True
+34,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,78.0,114.9,78.4,98.3,36.6,14.3,15,7.0,0.8,90.6,13.3,True
+14,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,78.9,126.0,73.4,97.0,36.8,14.6,15,7.3,,94.5,14.3,False
+59,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,102.5,172.1,118.8,94.1,36.8,21.7,9,13.3,1.0,176.8,14.8,False
+27,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,107.9,120.7,84.5,93.2,38.5,25.5,15,19.7,1.0,120.8,12.1,False
+19,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,79.9,113.2,76.2,100.0,36.7,14.4,15,6.3,0.9,85.1,12.9,True
+48,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,93.1,132.0,70.5,95.0,38.9,18.1,15,16.4,1.2,155.6,11.3,False
+14,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,75.8,122.4,73.4,97.2,37.1,14.5,15,,0.9,96.2,13.9,False
+54,F,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,112.6,97.8,64.9,98.2,36.9,31.1,14,19.2,2.6,460.4,13.8,True
+54,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,94.1,129.6,75.2,93.2,39.0,23.9,14,15.8,0.8,108.1,12.9,True
+73,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,91.4,205.7,110.2,98.8,36.9,18.0,15,9.0,1.2,112.4,12.2,True
+74,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,116.2,90.0,69.2,91.2,37.1,26.7,14,14.8,1.1,185.7,11.1,False
+65,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,95.9,119.4,74.2,93.4,39.0,21.8,14,21.2,1.2,169.5,12.5,True
+44,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,87.7,203.4,108.7,96.6,37.2,16.7,11,12.2,0.9,110.4,13.8,True
+59,F,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,126.9,88.9,61.6,95.7,37.3,30.9,13,13.1,1.9,401.9,13.0,False
+5,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,70.4,127.2,78.3,98.9,36.9,14.4,15,6.3,1.0,82.0,12.3,True
+48,M,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,93.8,192.0,102.3,93.3,36.9,20.4,12,9.0,1.1,124.5,14.3,False
+39,F,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,87.6,170.6,114.7,94.7,37.3,19.8,13,11.0,1.1,113.5,,False
+71,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,93.6,197.0,129.5,98.2,36.8,17.2,15,10.2,1.2,,12.0,True
+34,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,71.7,115.7,70.6,98.4,37.0,14.9,15,8.5,0.9,94.6,12.9,False
+59,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,70.7,115.6,75.4,98.9,36.9,15.3,15,7.4,0.7,84.6,12.7,False
+65,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,120.2,95.2,67.4,88.3,36.5,25.0,15,12.0,1.0,182.7,12.0,False
+67,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,87.3,195.0,118.2,97.9,37.0,17.8,15,10.1,1.8,158.3,13.8,False
+49,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,73.0,112.6,73.5,98.7,36.9,15.8,15,,0.8,85.5,13.8,True
+37,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,96.2,203.4,128.2,98.6,36.8,18.3,15,8.1,1.5,103.8,,True
+50,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,129.0,94.4,66.1,95.5,36.6,35.8,13,,2.9,401.9,14.5,False
+65,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,124.1,85.0,51.9,92.7,37.1,20.6,14,15.0,0.9,216.4,11.7,False
+10,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,80.8,129.9,76.7,99.9,37.1,17.4,15,9.5,0.8,93.4,,True
+56,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,125.0,97.9,66.5,91.6,36.6,25.4,14,10.9,1.1,200.6,13.4,False
+80,F,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,134.7,80.1,59.3,90.0,40.1,29.5,11,,3.1,267.0,11.0,False
+38,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,77.1,128.0,81.3,97.0,37.3,16.9,15,8.0,0.8,,,False
+63,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,68.9,116.7,69.1,99.8,36.5,15.7,15,6.6,0.9,89.3,12.4,True
+33,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,74.6,110.3,70.2,98.9,36.7,15.5,15,7.8,0.9,96.3,13.7,False
+55,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,74.3,115.6,70.0,98.3,37.0,14.5,15,7.2,0.7,86.3,14.7,False
+61,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,102.6,125.6,78.3,97.5,38.5,16.8,15,15.4,1.0,115.4,11.1,False
+42,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,91.9,172.0,102.5,97.1,36.9,21.7,12,12.2,1.2,121.9,11.9,False
+54,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,71.1,114.5,77.7,99.6,36.9,14.9,15,,0.8,85.5,13.7,True
+24,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,96.4,121.0,71.8,92.6,38.6,18.1,14,18.6,1.1,115.4,13.6,True
+33,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,83.2,116.5,77.0,98.7,37.3,15.0,15,10.6,0.7,87.8,13.6,True
+16,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,77.3,121.5,78.3,97.9,37.1,15.2,15,,0.9,104.0,,False
+19,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,93.4,112.8,71.5,95.8,38.7,22.9,14,16.3,1.0,157.2,12.7,False
+56,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,134.5,104.7,66.4,98.0,37.0,24.7,13,12.5,3.0,425.2,14.8,False
+54,M,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,121.5,88.1,58.5,85.6,36.5,26.5,15,12.1,1.2,110.4,13.2,False
+21,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,76.1,115.0,74.2,99.5,36.9,14.5,15,8.6,0.7,99.5,14.2,True
+23,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,98.3,120.2,76.9,95.4,39.2,20.9,14,19.0,1.2,163.0,13.0,False
+56,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,105.1,92.0,70.1,91.8,37.7,26.2,15,11.1,1.0,142.8,12.8,False
+58,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,107.6,91.6,60.9,88.6,37.4,23.7,14,12.6,1.0,141.1,,False
+38,F,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,108.3,185.8,97.5,94.5,36.9,16.9,12,13.5,,186.8,14.4,False
+64,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,94.0,129.7,79.3,99.9,38.9,21.9,15,20.7,0.9,120.3,13.0,False
+23,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,105.9,116.9,79.9,98.1,39.0,18.3,15,18.6,1.0,94.3,12.8,False
+55,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,125.9,109.1,67.3,97.4,37.5,26.7,10,16.5,3.0,447.6,12.6,True
+67,M,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,109.4,176.5,106.0,96.5,37.2,16.7,14,8.6,1.3,,12.1,False
+58,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,71.2,120.6,68.6,98.7,37.0,14.6,15,7.3,0.9,94.0,12.5,False
+7,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,74.0,119.3,71.5,99.9,36.7,14.1,15,7.1,1.0,98.8,13.4,False
+35,F,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,119.6,81.6,60.7,92.3,36.7,22.5,14,,0.9,180.1,12.5,False
+43,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,95.2,198.7,120.6,96.8,37.0,16.8,15,7.6,1.7,125.3,,True
+45,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,72.3,121.5,72.5,98.8,36.9,15.2,15,6.9,0.8,102.7,12.4,False
+54,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,69.6,121.0,77.2,98.0,37.0,14.2,15,8.8,0.8,98.2,13.5,False
+50,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,76.2,116.4,79.0,98.1,37.2,15.9,15,10.1,0.8,89.4,14.1,True
+27,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,100.6,133.4,77.7,95.1,38.4,18.8,14,15.3,1.2,128.5,11.7,False
+33,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,107.3,126.3,74.1,94.6,38.7,19.0,14,15.4,1.0,153.7,13.1,True
+42,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,131.7,83.0,46.2,92.2,40.3,28.7,13,25.0,3.1,198.6,10.2,False
+41,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,102.9,119.2,79.6,99.7,37.9,17.1,15,16.6,0.8,,,False
+25,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,65.9,126.2,74.3,99.0,36.6,15.1,15,6.6,0.8,95.1,12.8,True
+7,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,83.2,126.5,75.9,97.8,37.0,17.3,15,11.0,0.8,,12.1,False
+47,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,135.1,89.3,54.4,94.7,39.1,27.1,12,22.7,2.9,190.7,11.8,True
+60,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,86.8,205.8,129.8,96.4,37.1,18.9,15,9.8,1.2,110.1,13.2,False
+20,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,70.6,127.8,80.2,99.3,36.8,17.1,15,10.4,0.8,95.2,12.7,False
+39,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,92.1,203.2,112.2,96.1,36.7,16.4,15,9.6,1.3,124.2,12.3,True
+56,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,68.5,125.9,71.8,99.8,37.0,16.4,15,7.4,0.7,86.2,,False
+24,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,92.2,130.5,80.8,97.3,39.0,21.7,15,14.8,1.0,,13.3,False
+9,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,67.4,121.1,76.0,98.9,37.0,15.1,15,7.1,0.8,101.9,15.7,False
+58,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,108.3,118.2,81.2,93.9,38.3,22.4,14,20.0,1.2,,11.6,False
+54,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,95.2,190.9,117.4,96.5,36.7,18.3,15,7.9,1.3,103.8,,True
+65,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,76.3,120.9,76.3,99.8,37.0,16.0,15,8.6,0.7,93.9,13.8,False
+58,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,90.5,195.3,111.0,96.2,36.5,16.4,15,7.3,1.2,141.1,11.9,False
+59,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,107.3,127.1,74.9,99.1,38.5,20.0,15,20.3,0.8,105.8,14.1,True
+12,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,65.7,114.9,72.1,99.4,36.9,14.7,15,,1.0,98.6,13.0,False
+24,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,71.2,129.3,70.6,99.5,37.3,17.0,15,7.7,0.9,,12.1,False
+49,F,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,108.3,195.5,113.8,93.5,36.8,17.7,12,8.8,1.0,,,False
+33,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,98.7,120.4,82.9,93.3,38.5,18.9,14,14.7,1.2,139.3,11.3,False
+68,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,93.2,120.7,77.0,97.2,38.4,21.9,15,15.0,0.9,113.4,14.1,False
+24,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,83.2,110.9,79.7,98.2,36.9,14.6,15,8.1,0.8,108.7,,True
+19,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,88.7,219.8,115.5,98.0,36.8,17.4,15,8.0,1.6,138.5,12.4,False
+42,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,88.9,210.5,118.7,96.4,36.8,18.0,15,9.4,1.3,112.2,12.3,True
+41,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,69.1,115.3,81.9,97.9,37.3,14.2,15,7.2,0.8,109.3,14.0,False
+49,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,123.8,98.9,56.8,94.0,37.3,29.5,10,16.4,2.1,582.8,12.6,True
+68,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,116.1,95.2,63.1,89.2,37.0,24.0,15,13.6,1.4,151.7,13.4,False
+56,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,94.9,134.5,82.2,97.6,37.9,17.1,15,,0.8,,13.7,False
+38,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,92.4,134.3,74.8,99.9,38.6,21.9,15,19.8,1.0,92.3,13.4,False
+35,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,95.6,206.3,127.2,96.3,36.9,18.0,15,9.4,1.7,147.9,11.2,False
+27,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,93.9,131.6,78.3,98.0,37.9,21.1,15,15.2,0.7,124.4,14.9,False
+73,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,99.8,210.7,120.1,97.3,36.8,19.2,15,10.6,1.3,100.3,11.4,False
+31,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,84.9,127.8,81.2,98.5,37.1,17.9,15,9.2,0.8,89.8,,False
+70,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,109.8,133.4,83.0,93.0,39.2,18.9,15,16.6,,115.3,11.7,True
+61,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,90.5,214.0,110.2,97.2,36.6,16.3,15,9.1,1.5,155.6,12.4,True
+50,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,75.5,123.2,77.1,98.5,36.9,14.5,15,6.5,1.0,94.7,14.8,True
+14,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,75.7,123.2,77.9,99.1,36.8,15.2,15,6.5,0.9,85.1,12.4,False
+63,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,91.2,125.8,80.7,94.6,38.9,20.4,15,16.5,1.3,160.7,10.7,False
+45,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,83.6,122.2,76.1,99.3,37.0,15.6,15,9.6,0.8,85.9,12.1,False
+35,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,103.2,129.6,82.2,94.4,38.4,22.5,15,16.0,1.3,149.2,11.4,False
+40,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,123.2,100.2,69.5,98.6,37.6,31.7,12,,2.2,495.1,15.1,False
+30,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,89.0,116.9,76.9,99.9,38.9,21.8,15,,1.0,112.5,14.9,True
+54,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,121.2,88.3,52.1,92.5,36.8,23.7,15,10.5,1.0,192.6,12.2,False
+56,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,69.4,113.9,73.1,99.3,36.8,14.2,15,8.2,0.8,,14.9,False
+67,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,114.0,99.2,63.5,98.4,36.5,32.2,12,,2.0,536.8,15.9,True
+69,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,98.4,119.7,73.2,98.8,38.4,16.6,15,21.5,,128.4,12.0,False
+39,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,78.4,118.8,79.9,98.5,36.7,14.1,15,7.7,0.8,82.2,15.7,False
+7,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,66.4,127.8,69.3,99.0,37.0,16.6,15,7.6,0.7,82.5,14.9,True
+63,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,91.0,186.5,113.4,97.0,37.1,19.5,15,7.5,1.6,123.0,12.1,False
+35,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,71.5,125.6,71.6,100.0,36.5,15.9,15,6.0,0.7,88.9,13.6,False
+69,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,100.7,134.6,82.6,93.6,39.1,20.3,14,16.8,1.2,,10.3,False
+35,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,129.2,101.4,58.8,90.5,37.5,23.5,14,13.4,1.0,116.0,12.1,True
+25,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,77.7,114.4,72.4,99.8,36.5,15.0,15,7.1,0.8,80.0,14.7,False
+49,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,123.9,73.8,57.5,94.6,38.9,30.6,12,22.6,3.1,187.6,10.3,False
+8,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,75.6,114.3,77.7,99.9,36.7,14.4,15,,0.8,85.7,12.7,True
+62,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,100.2,129.8,81.5,98.6,39.0,20.7,15,17.2,0.9,105.2,,False
+62,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,86.5,189.4,113.1,97.9,37.2,17.7,9,10.7,1.1,135.2,11.9,False
+34,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,92.7,120.8,75.1,97.4,38.5,20.8,15,15.0,1.1,109.7,13.1,False
+70,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,91.3,193.1,114.6,98.1,36.8,18.8,15,10.1,1.8,136.7,11.6,True
+17,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,74.0,120.4,76.7,99.6,36.8,15.8,15,8.1,0.8,82.6,12.9,True
+35,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,72.3,123.6,73.2,99.9,36.6,16.9,15,,0.8,93.7,13.2,False
+71,M,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,125.0,85.5,62.2,95.7,37.3,33.3,12,18.5,2.9,407.6,14.2,False
+46,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,88.7,117.8,72.1,99.3,38.6,21.2,15,17.5,0.8,91.0,14.2,True
+38,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,89.3,119.4,76.8,98.8,39.2,16.6,15,17.1,0.9,116.0,11.3,True
+41,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,91.1,195.8,129.2,97.1,37.1,16.5,15,9.4,1.1,141.4,13.0,False
+63,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,97.5,180.2,103.3,96.5,36.9,16.9,11,9.0,1.1,154.5,12.5,False
+40,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,110.2,89.3,72.4,87.6,36.7,31.0,13,9.1,1.1,128.2,11.7,True
+44,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,115.9,97.7,53.1,93.3,36.5,20.7,15,12.7,1.4,164.9,12.4,False
+56,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,92.4,115.1,75.6,97.7,38.7,17.4,15,16.7,1.0,125.0,12.3,False
+40,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,69.0,120.6,72.7,97.8,36.9,17.3,15,10.9,0.8,89.7,14.8,True
+35,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,74.5,122.5,80.7,98.0,37.3,15.4,15,10.1,0.7,100.7,14.4,False
+60,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,68.4,110.8,73.3,99.6,36.9,15.4,15,8.7,0.8,86.4,13.0,False
+34,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,66.5,113.0,68.3,99.8,36.9,15.0,15,7.5,0.9,95.7,15.1,True
+55,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,114.0,89.7,68.4,88.7,36.7,28.9,15,11.2,0.8,128.6,12.0,False
+62,F,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,108.0,98.1,53.3,90.8,36.7,25.6,14,13.2,1.2,192.4,13.8,False
+46,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,70.2,123.9,74.3,98.9,36.9,14.2,15,8.5,0.9,100.7,,False
+65,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,78.1,126.8,69.9,98.4,36.8,14.5,15,7.7,,91.2,13.7,True
+60,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,100.0,209.6,116.0,96.4,36.7,18.9,15,10.9,1.3,135.6,13.1,False
+68,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,90.3,205.6,112.2,96.0,37.0,18.4,15,10.2,1.1,156.3,12.9,False
+34,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,89.1,126.4,72.5,99.2,38.5,19.6,15,19.2,0.7,118.2,12.6,False
+9,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,79.2,118.0,68.7,99.3,36.5,15.9,15,7.2,0.7,95.3,12.3,False
+17,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,80.6,123.5,77.9,99.3,37.1,14.1,15,7.8,0.8,102.9,12.9,False
+12,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,83.5,124.7,76.3,98.2,36.9,16.6,15,,1.0,92.5,13.3,True
+26,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,74.2,123.8,79.7,99.4,36.8,16.4,15,6.2,1.0,104.6,12.8,False
+20,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,73.5,115.5,71.9,98.7,36.5,15.7,15,7.9,0.8,103.4,13.7,False
+49,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,82.8,128.5,70.1,98.7,37.0,14.8,15,7.2,0.8,87.0,14.3,False
+48,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,93.8,125.5,73.9,97.9,38.3,17.8,15,18.5,,94.4,11.5,False
+41,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,109.5,130.6,72.2,92.5,39.1,19.0,14,20.2,1.0,179.7,12.3,False
+45,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,92.1,127.5,87.2,98.8,38.3,19.6,15,19.8,1.1,106.4,14.3,False
+50,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,80.1,216.2,113.7,97.1,36.6,18.0,15,9.5,1.1,119.7,12.1,False
+69,M,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,126.1,88.5,42.3,93.7,38.9,30.7,13,24.5,2.8,274.4,9.9,False
+12,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,76.1,126.0,70.4,99.1,36.9,16.5,15,8.9,0.8,82.8,15.1,False
+16,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,68.7,119.2,73.3,99.6,36.6,15.5,15,8.4,0.7,,12.6,True
+33,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,103.6,132.5,76.7,95.8,38.9,20.1,15,15.7,1.1,108.6,13.7,False
+53,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,112.4,90.3,60.0,90.2,36.5,27.6,15,14.8,1.3,197.7,13.4,False
+29,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,83.2,187.6,125.5,97.1,36.7,16.2,15,9.6,1.4,154.2,11.8,True
+45,F,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,120.5,90.7,69.5,90.6,36.9,26.6,15,14.8,1.1,207.8,11.3,False
+13,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,74.9,118.8,78.8,97.4,37.3,17.1,15,7.8,0.9,,,False
+47,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,102.4,133.1,82.9,96.0,39.2,18.8,14,18.3,0.9,135.0,13.4,False
+52,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,66.8,115.6,73.2,98.2,36.7,14.9,15,6.1,0.8,102.1,12.7,False
+18,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,89.0,190.9,128.6,98.3,37.1,16.7,15,8.0,1.6,152.8,13.9,False
+56,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,105.3,131.0,76.5,99.4,38.8,19.3,15,,0.8,130.0,12.8,True
+78,M,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,113.7,93.1,58.7,98.2,36.9,24.0,12,15.3,1.7,531.2,,False
+64,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,106.7,126.1,83.5,92.8,39.2,19.1,14,14.2,1.0,136.8,10.0,False
+36,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,94.0,134.2,78.4,94.8,38.3,25.4,15,17.0,1.1,169.3,10.4,True
+57,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,65.8,112.6,76.6,99.5,36.7,14.6,15,8.6,0.9,80.2,12.7,True
+44,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,137.4,79.9,44.9,93.9,38.8,31.5,8,22.8,,235.6,9.2,False
+53,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,96.8,112.8,73.4,94.2,38.8,25.9,15,,,166.2,11.4,False
+55,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,98.5,118.3,74.3,97.3,38.2,20.4,15,17.8,,,,False
+41,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,71.5,116.0,69.1,98.5,36.6,15.1,15,7.1,0.9,87.8,15.4,True
+19,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,97.5,133.3,84.9,92.8,38.7,19.6,15,16.8,1.2,173.6,12.5,True
+68,M,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,127.9,96.2,74.4,89.5,36.7,24.4,13,10.9,1.0,115.0,12.4,True
+56,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,115.0,96.8,53.1,90.5,36.8,22.4,15,13.6,1.0,159.0,11.8,True
+22,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,97.2,116.7,75.0,92.1,38.9,20.2,14,15.2,1.0,110.9,11.8,False
+78,M,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,115.9,101.8,61.8,91.2,37.7,26.0,14,9.7,0.9,148.7,13.2,True
+43,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,66.9,112.9,76.8,99.1,36.9,15.7,15,6.1,0.9,103.2,13.5,False
+31,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,102.5,131.1,78.6,93.6,39.0,24.9,15,20.4,1.0,167.3,,False
+25,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,101.0,119.2,78.1,99.7,38.0,20.5,15,20.9,0.7,121.2,14.0,True
+57,M,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,133.7,73.8,57.6,92.6,39.2,31.1,13,22.9,2.7,255.8,9.9,False
+16,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,71.6,110.2,73.2,98.5,36.8,14.6,15,,0.7,89.8,12.9,True
+37,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,89.0,215.6,112.7,96.5,36.9,17.3,15,9.1,1.2,150.8,13.5,True
+50,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,115.0,90.6,61.9,89.2,37.2,22.3,15,14.3,1.3,202.8,12.3,False
+36,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,82.5,202.1,110.1,97.1,37.1,16.2,15,8.2,1.6,,11.0,False
+16,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,71.0,127.1,72.8,98.6,36.9,15.8,15,7.3,0.9,88.2,13.0,True
+65,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,79.8,125.2,70.7,99.4,37.3,16.6,15,7.2,0.9,,12.5,False
+20,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,67.1,111.0,72.3,98.6,37.0,14.9,15,7.9,0.9,80.2,14.3,True
+43,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,71.7,119.1,72.0,98.1,37.0,14.6,15,9.0,1.0,94.7,12.4,True
+70,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,129.6,108.7,56.5,96.5,37.6,33.2,14,18.2,3.0,423.8,12.6,False
+50,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,110.4,90.8,65.1,93.4,36.6,27.9,14,,1.0,,13.1,False
+37,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,104.1,121.9,83.7,99.0,38.4,20.8,15,,1.0,117.3,12.7,True
+33,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,70.5,119.0,77.8,99.8,36.6,16.8,15,8.8,0.9,101.8,15.2,True
+32,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,69.2,114.0,72.9,99.1,37.3,16.5,15,,0.9,101.5,13.5,False
+24,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,77.2,116.0,77.6,99.3,37.0,14.0,15,7.2,0.9,82.5,12.7,True
+44,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,117.3,100.1,72.2,86.2,36.7,28.8,15,10.3,0.9,111.0,13.7,True
+11,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,80.0,128.0,74.4,98.6,37.1,14.1,15,9.4,0.7,104.9,,False
+29,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,89.8,122.1,77.8,99.3,38.5,21.0,15,20.7,0.9,100.4,11.8,True
+13,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,77.8,122.6,76.3,99.6,36.7,15.5,15,7.9,0.9,97.2,12.4,False
+36,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,103.1,92.0,61.2,93.0,37.0,23.4,15,10.5,1.0,142.5,12.6,False
+60,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,85.8,206.5,118.9,96.6,37.1,17.2,15,9.3,1.3,139.7,13.4,False
+35,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,95.7,193.3,113.6,97.6,36.5,19.9,15,9.4,1.3,122.2,13.2,False
+33,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,99.0,196.1,118.5,98.0,37.2,19.5,15,7.9,1.3,103.4,12.2,False
+52,M,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,112.5,93.3,62.1,97.4,36.4,35.5,11,16.9,2.5,506.2,13.0,False
+62,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,123.0,105.2,65.3,98.7,37.5,24.8,13,19.9,2.7,408.9,15.6,True
+35,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,96.5,80.4,68.4,94.0,36.9,24.6,15,12.7,1.1,168.3,12.7,True
+67,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,127.0,93.4,67.2,90.5,36.8,26.0,14,9.9,1.2,130.3,11.3,False
+16,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,76.0,114.5,68.8,99.4,36.5,15.5,15,6.7,,86.8,14.3,False
+69,F,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,126.3,95.2,50.9,92.4,37.1,20.1,14,12.5,1.4,150.4,11.9,False
+64,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,92.8,204.7,127.1,98.4,36.7,16.5,15,7.9,1.7,120.6,13.8,True
+37,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,136.1,85.9,45.0,96.0,39.7,24.2,11,23.0,2.8,206.0,10.4,False
+55,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,98.0,191.5,117.0,96.3,37.1,19.8,15,7.3,1.2,155.2,13.3,False
+53,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,90.6,124.4,82.8,97.3,37.9,18.6,15,16.3,0.8,103.5,11.3,False
+40,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,74.8,121.3,73.6,97.7,37.2,17.8,15,8.0,0.9,97.6,14.8,False
+60,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,75.6,120.4,72.9,99.4,36.9,14.5,15,8.5,0.9,105.8,12.8,True
+21,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,82.2,113.3,79.0,97.0,37.2,16.1,15,7.6,0.9,91.8,14.3,False
+80,F,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,128.7,88.3,59.2,86.5,36.6,22.8,15,11.6,,147.5,13.9,False
+7,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,70.0,126.1,79.5,98.6,37.2,17.0,15,11.0,1.0,87.3,14.7,False
+40,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,80.9,128.3,80.9,99.0,37.1,14.6,15,10.9,0.9,96.2,14.7,True
+70,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,109.1,130.9,77.1,94.6,39.4,21.3,15,18.5,1.2,,10.1,False
+50,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,71.0,114.0,71.7,98.6,37.4,16.8,15,8.2,0.9,89.6,14.6,True
+25,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,76.7,110.8,71.8,99.9,36.8,14.5,15,,,84.4,14.6,True
+60,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,69.3,115.1,74.8,98.9,36.5,15.9,15,8.2,0.7,93.2,14.6,False
+68,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,92.4,124.5,77.7,99.4,38.7,18.5,15,15.2,1.0,97.9,12.1,False
+47,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,94.9,127.1,82.7,93.5,38.8,20.8,15,21.1,,116.3,10.3,False
+24,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,70.1,123.1,79.7,99.1,36.8,14.2,15,8.6,0.9,101.0,14.0,False
+53,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,66.9,115.9,72.9,98.5,36.8,16.7,15,6.6,0.9,98.5,15.8,True
+38,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,144.8,72.4,55.3,93.6,40.1,26.3,12,18.7,3.3,178.2,10.7,False
+71,F,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,120.8,93.1,55.0,94.1,36.5,22.1,14,11.8,1.3,183.7,11.1,False
+49,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,77.8,113.9,69.8,98.4,36.9,15.4,15,7.8,0.7,,15.7,False
+26,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,101.4,115.2,76.4,98.3,38.0,20.3,15,20.7,0.8,119.7,11.7,False
+68,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,93.8,116.9,87.5,98.7,38.5,21.4,15,,0.9,116.2,11.8,False
+66,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,132.7,87.6,57.3,91.7,40.1,28.1,12,22.2,2.3,177.4,10.4,True
+50,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,72.0,111.3,73.3,98.2,36.6,15.1,15,7.6,0.7,92.7,12.4,True
+39,F,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,96.7,184.6,98.6,96.0,37.1,16.2,9,13.0,1.0,117.7,13.4,True
+51,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,82.7,125.8,74.5,97.9,37.0,15.9,15,9.3,0.8,94.1,14.2,True
+22,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,80.3,125.7,80.4,98.0,37.0,16.6,15,9.9,0.9,90.2,12.0,False
+46,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,75.3,120.0,75.3,98.2,36.7,15.9,15,,0.9,104.8,15.6,True
+37,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,107.4,93.4,64.0,92.8,36.5,25.1,14,14.3,1.3,206.7,12.1,True
+71,F,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,130.4,93.6,66.9,98.4,36.2,34.3,13,17.2,2.5,581.4,14.1,True
+80,F,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,104.2,190.9,95.6,93.7,37.3,17.2,10,11.4,1.0,177.3,12.7,False
+12,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,69.9,118.1,71.6,97.5,36.9,16.9,15,8.6,1.0,104.3,12.4,True
+21,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,92.0,111.4,70.8,95.4,38.7,22.9,15,19.5,1.0,104.4,10.2,True
+59,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,107.8,85.5,63.6,93.3,36.8,26.3,15,11.8,1.2,208.4,13.0,True
+16,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,69.6,112.0,71.9,99.7,36.9,15.8,15,6.3,0.9,86.6,14.6,False
+9,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,79.0,121.6,78.2,98.7,36.5,14.8,15,8.2,0.8,84.6,12.1,True
+56,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,102.8,131.9,72.1,93.3,39.2,20.7,15,14.9,0.9,145.6,,False
+8,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,72.1,113.0,74.9,98.2,36.8,15.9,15,7.7,0.9,89.7,14.6,True
+47,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,79.7,121.6,70.0,98.0,37.4,17.5,15,,0.7,109.2,14.9,True
+62,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,77.3,110.4,79.9,98.4,37.1,15.5,15,9.3,0.8,90.6,14.3,False
+49,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,65.3,112.3,76.6,98.4,36.6,14.6,15,7.6,0.7,88.1,,False
+38,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,123.8,96.5,56.8,88.5,37.5,23.5,14,9.7,0.8,,11.7,True
+26,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,70.6,123.6,69.3,98.4,36.6,14.0,15,7.1,0.8,103.3,14.6,False
+49,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,67.5,124.3,69.0,99.6,36.8,14.7,15,6.1,,94.6,14.3,False
+64,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,71.2,117.1,68.9,99.7,36.9,14.8,15,7.1,1.0,80.6,13.6,True
+66,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,97.5,121.7,78.9,98.1,39.0,22.0,15,14.3,1.0,110.8,14.2,False
+54,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,78.9,122.7,71.6,98.6,37.1,15.1,15,7.7,1.0,88.5,13.4,False
+22,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,101.3,121.3,78.6,97.8,38.5,20.0,15,16.8,0.9,110.2,,False
+35,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,102.6,122.8,81.7,94.8,38.6,25.4,15,14.6,0.9,140.6,12.9,True
+20,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,69.5,123.1,80.9,98.7,37.2,16.1,15,7.2,0.8,97.0,,True
+41,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,107.5,119.0,83.2,97.5,38.4,18.6,15,21.1,1.1,115.9,14.8,True
+19,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,84.2,115.2,76.7,99.7,37.3,15.3,15,9.0,1.0,107.5,,False
+53,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,102.9,123.0,72.9,98.2,39.0,21.9,15,16.4,0.8,93.7,14.7,False
+44,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,98.3,82.7,66.4,88.5,36.9,23.5,14,14.5,0.9,218.0,13.1,True
+44,M,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,99.4,185.6,107.8,97.0,37.3,20.2,9,12.5,1.1,118.2,,False
+17,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,67.9,113.4,72.3,99.0,37.0,14.9,15,6.9,0.9,99.5,14.1,False
+70,F,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,112.6,97.7,57.3,96.4,37.7,26.9,14,17.3,1.7,593.7,15.5,False
+61,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,82.5,198.3,124.7,96.2,37.0,19.9,15,10.4,1.5,,11.4,False
+57,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,72.1,112.8,80.2,97.1,36.8,15.1,15,10.4,1.0,93.8,13.3,False
+40,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,139.1,79.8,55.3,90.5,39.8,30.3,11,24.3,2.9,251.3,,False
+16,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,70.3,126.3,75.9,98.4,36.6,14.5,15,7.7,0.7,83.2,13.9,True
+70,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,81.3,208.2,97.0,97.6,37.3,20.5,10,8.7,1.2,175.5,12.5,True
+19,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,70.1,117.8,72.2,99.0,36.7,15.4,15,8.8,0.9,104.0,14.6,True
+68,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,101.7,115.4,79.7,98.2,38.3,16.8,15,,1.1,122.5,,False
+14,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,79.3,115.9,72.9,99.7,36.8,14.3,15,6.0,1.0,83.6,14.0,True
+71,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,124.2,85.5,69.5,92.5,36.8,30.0,15,12.9,0.9,149.9,13.8,True
+56,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,70.6,120.4,75.3,99.7,36.8,14.9,15,6.5,0.7,102.1,12.8,False
+51,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,90.5,118.5,80.8,99.4,38.1,19.0,15,,0.9,115.4,11.3,False
+77,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,123.6,95.1,60.2,98.4,37.4,26.6,12,12.6,2.7,504.1,14.1,True
+33,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,75.4,118.6,78.6,98.6,36.9,16.8,15,6.9,0.9,85.7,14.2,False
+59,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,95.7,95.6,65.4,88.1,37.1,25.2,14,13.9,,156.5,11.7,True
+29,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,73.2,123.5,73.7,98.1,36.8,14.7,15,7.7,0.7,90.7,14.6,False
+6,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,68.7,121.8,73.8,99.0,37.1,14.9,15,7.6,0.9,108.9,12.2,False
+79,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,111.1,88.5,58.2,89.5,37.7,24.3,14,,0.8,105.5,11.1,False
+30,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,91.1,132.4,74.7,93.2,38.3,25.6,15,20.4,0.9,177.1,10.7,False
+64,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,70.8,121.2,73.9,99.2,37.3,14.0,15,7.2,0.8,106.6,14.5,False
+55,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,83.2,188.0,102.9,93.6,37.1,20.6,12,10.0,1.0,120.9,11.9,True
+19,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,103.3,117.2,72.3,98.5,38.4,17.2,15,19.6,0.7,129.2,12.2,False
+52,F,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,89.5,209.2,113.6,93.1,37.1,16.2,13,10.4,0.9,145.8,12.8,True
+62,F,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,105.3,87.5,52.9,91.7,36.9,26.3,14,10.5,1.3,,11.9,True
+58,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,72.3,114.0,71.3,98.9,36.8,15.8,15,6.1,0.9,99.5,12.8,False
+43,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,92.0,215.4,115.6,98.1,37.1,17.5,15,8.3,1.1,143.5,12.4,False
+18,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,93.2,123.4,71.0,92.4,39.1,24.6,15,16.0,1.3,117.0,14.0,False
+6,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,73.1,123.8,71.2,99.8,36.6,15.9,15,7.3,0.9,95.8,14.1,False
+71,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,104.6,186.7,108.4,97.3,37.1,21.3,12,8.5,1.2,157.2,13.2,True
+52,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,90.0,123.9,76.9,98.2,38.6,20.1,15,19.9,0.8,113.8,14.3,True
+13,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,66.8,117.0,69.2,99.3,36.7,16.0,15,8.8,0.7,99.0,13.8,False
+74,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,109.4,118.1,79.9,92.5,38.8,20.6,14,17.1,1.0,109.0,11.9,True
+20,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,74.4,115.7,78.2,99.8,36.5,16.6,15,6.6,0.8,88.1,16.0,False
+39,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,95.9,115.3,82.5,98.4,38.4,19.9,15,15.5,1.0,94.3,13.4,True
+33,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,66.4,111.0,73.2,98.0,36.9,15.4,15,8.5,,93.7,12.9,False
+68,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,99.8,125.1,77.7,92.2,39.1,21.2,15,,0.9,107.0,11.8,False
+51,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,94.9,198.6,128.1,96.6,37.1,17.2,15,7.7,1.1,106.6,12.2,True
+78,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,115.0,95.1,73.4,90.5,37.2,29.9,14,12.3,1.1,149.5,13.4,False
+36,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,144.9,83.2,53.1,90.1,40.0,28.2,11,24.5,2.1,190.7,,True
+34,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,99.7,130.3,77.3,99.3,38.6,17.7,15,18.7,1.0,112.5,11.9,True
+22,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,68.7,128.0,77.7,97.5,37.0,17.6,15,9.9,,95.6,14.4,True
+75,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,90.0,215.1,114.2,98.7,36.9,18.1,15,8.4,1.4,100.5,13.6,False
+51,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,65.7,114.5,77.6,98.3,36.6,14.8,15,8.4,0.7,90.6,12.7,True
+26,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,99.9,131.4,81.0,99.1,39.0,16.7,15,21.0,0.7,,11.2,False
+41,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,107.0,121.0,76.2,95.1,38.5,24.5,15,18.0,0.9,126.8,10.4,True
+74,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,98.0,117.6,82.4,93.8,38.7,22.9,14,19.9,1.1,103.9,12.1,False
+20,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,75.2,121.5,73.5,98.3,36.7,14.8,15,6.7,0.8,99.7,13.8,False
+20,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,91.6,118.4,80.1,97.8,39.0,19.5,15,17.7,1.1,104.0,13.9,False
+48,F,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,84.6,183.2,104.5,97.2,37.1,19.9,14,9.3,1.0,156.3,12.0,True
+70,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,126.7,94.2,56.1,89.1,37.3,27.0,14,10.3,,141.2,13.3,False
+30,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,77.6,126.5,73.5,99.5,36.9,15.1,15,6.6,0.9,89.2,13.9,False
+56,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,77.8,116.2,78.5,99.1,36.9,16.6,15,,0.8,109.7,12.8,False
+52,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,95.1,202.7,125.6,97.2,36.6,16.8,15,9.9,1.7,133.2,12.5,False
+43,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,91.8,211.1,112.5,98.8,37.1,19.5,15,7.7,1.3,136.2,13.2,True
+67,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,118.6,89.6,61.8,92.5,36.8,21.9,14,11.8,1.0,204.9,11.4,False
+23,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,75.0,119.5,74.6,99.4,36.8,15.3,15,8.2,0.7,90.5,13.2,True
+44,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,74.0,122.0,77.3,99.2,36.7,15.2,15,8.9,,101.6,,False
+43,F,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,128.0,109.2,64.2,97.8,37.6,25.3,11,17.5,1.7,408.7,15.6,True
+33,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,74.3,111.1,81.3,97.5,36.9,16.3,15,9.4,0.7,86.4,12.9,False
+27,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,77.5,120.2,71.9,97.6,37.2,15.3,15,10.6,0.9,107.9,12.6,False
+16,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,69.4,117.5,74.9,97.8,37.0,16.3,15,8.4,0.8,107.8,12.9,False
+64,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,67.8,126.9,79.1,98.9,37.0,15.8,15,7.8,0.9,104.6,15.9,False
+49,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,70.4,116.7,79.3,98.3,36.8,15.4,15,,0.8,,14.1,False
+54,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,90.5,178.5,113.7,97.6,37.2,18.7,10,8.8,1.2,110.7,11.6,True
+73,F,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,110.5,104.7,56.1,86.6,37.7,29.7,14,9.6,0.9,124.3,11.8,True
+52,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,65.4,121.9,69.6,98.6,36.8,15.0,15,7.2,0.7,84.6,,True
+36,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,99.2,188.0,122.1,97.1,37.0,18.6,15,7.2,1.1,136.0,13.7,False
+36,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,66.9,122.3,68.3,98.1,36.8,15.9,15,8.6,0.8,102.3,13.8,False
+22,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,74.2,125.2,71.1,99.7,36.9,16.8,15,7.7,1.0,105.3,13.9,True
+49,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,72.4,113.9,73.4,97.2,37.1,16.7,15,10.2,0.9,93.6,14.4,False
+33,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,78.1,112.9,75.5,98.5,37.2,17.5,15,,0.9,101.7,14.3,False
+28,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,72.8,119.5,71.4,99.8,36.9,14.7,15,7.4,0.9,87.3,12.4,False
+71,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,85.4,198.1,102.7,94.7,36.8,21.2,13,12.6,1.0,158.7,13.7,False
+53,F,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,127.6,97.4,69.6,89.7,36.8,26.8,15,13.3,1.3,166.6,12.3,True
+55,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,92.0,190.1,123.3,98.4,37.0,18.4,15,8.8,1.4,130.0,13.8,False
+38,F,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,124.3,99.0,70.0,96.6,36.6,25.7,13,15.5,1.9,439.6,15.0,True
+20,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,77.5,125.1,79.2,98.8,36.8,17.0,15,6.5,0.9,,14.4,False
+50,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,100.6,116.9,80.2,99.9,38.7,19.9,15,16.1,0.9,104.7,11.4,False
+48,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,76.2,121.7,72.8,98.6,36.9,14.3,15,8.9,1.0,103.1,14.4,False
+80,F,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,129.6,88.4,52.6,88.5,36.8,25.8,14,,1.0,140.6,12.6,True
+8,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,70.5,122.2,71.2,99.8,36.7,15.8,15,7.6,0.9,95.7,15.8,True
+48,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,77.0,119.3,76.6,99.1,36.8,16.3,15,7.6,0.9,95.3,16.0,True
+42,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,109.3,98.5,71.0,92.3,37.3,28.7,14,12.2,1.1,117.4,12.8,True
+65,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,105.8,131.3,72.5,98.7,38.2,16.9,15,19.0,0.8,122.5,14.9,False
+50,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,117.8,90.8,50.3,88.7,37.0,21.9,15,10.9,1.2,204.6,13.6,False
+59,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,90.3,126.6,76.2,94.7,38.3,19.5,14,20.8,0.8,146.9,12.8,False
+70,F,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,112.3,95.0,68.8,97.7,37.5,33.1,11,15.7,2.4,450.0,13.1,False
+69,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,96.0,115.8,86.9,97.7,39.1,21.6,15,19.8,0.9,114.0,12.0,False
+73,F,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,134.1,95.8,55.2,95.3,37.1,29.3,14,17.3,1.6,,14.6,False
+74,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,92.6,207.6,111.9,97.5,37.2,17.8,13,9.8,1.2,133.7,12.6,False
+26,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,96.4,211.5,110.2,98.0,37.2,19.8,15,10.6,1.6,149.3,,True
+55,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,66.3,120.9,71.7,98.2,36.8,15.7,15,6.8,0.8,81.1,13.5,False
+59,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,72.3,118.7,71.9,99.3,37.3,17.0,15,10.5,0.8,108.7,14.0,True
+67,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,98.0,203.8,129.5,96.3,36.6,18.0,15,7.4,1.3,111.5,11.0,False
+68,M,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,124.9,100.5,61.3,96.9,37.1,35.1,11,13.5,2.9,424.0,14.7,False
+31,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,99.2,130.9,78.3,95.7,38.7,19.7,14,21.7,0.8,167.9,10.2,True
+53,M,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,82.5,190.6,110.8,94.7,37.4,20.5,14,9.9,1.2,173.5,13.7,True
+29,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,97.0,118.5,78.5,94.8,38.9,21.7,14,18.0,0.9,100.3,13.0,False
+52,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,93.4,125.4,82.2,97.4,38.4,17.3,15,14.1,0.9,121.0,13.8,False
+65,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,73.0,124.5,74.6,98.7,36.6,15.6,15,,0.8,99.3,14.4,True
+65,F,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,90.1,203.1,108.3,96.5,37.0,20.9,11,8.8,0.9,159.3,12.3,True
+66,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,90.6,125.8,83.7,92.1,38.9,22.7,14,18.0,0.9,144.2,11.1,True
+47,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,112.5,96.2,66.4,88.2,37.4,22.6,14,13.0,1.2,142.5,12.5,False
+73,M,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,114.5,87.6,55.3,89.2,37.7,28.8,13,12.1,1.0,146.1,11.5,False
+60,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,103.3,119.4,76.1,98.4,39.1,16.7,15,21.6,0.8,91.2,11.4,False
+6,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,80.3,124.7,74.1,99.7,36.8,16.3,15,7.3,0.9,104.5,12.5,False
+50,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,119.3,100.8,64.7,96.9,36.7,33.4,10,13.0,1.7,444.5,,False
+64,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,69.9,115.6,71.1,98.4,36.5,14.9,15,8.4,0.9,87.5,13.8,False
+50,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,70.9,114.6,73.0,99.2,36.6,15.1,15,7.8,0.8,83.6,12.2,False
+47,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,77.2,118.9,71.3,97.8,37.1,16.9,15,8.3,0.8,101.5,15.0,True
+48,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,100.1,131.9,72.4,97.8,38.6,16.4,15,15.3,1.0,94.3,13.6,False
+62,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,73.6,117.8,68.2,98.9,36.7,15.3,15,6.1,0.9,91.3,13.0,True
+23,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,99.3,212.8,121.4,99.0,36.9,18.2,15,8.6,1.5,144.6,13.2,False
+42,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,72.5,112.0,72.8,98.5,36.7,14.3,15,6.5,0.9,104.8,14.1,True
+46,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,135.3,84.4,50.1,95.0,39.7,33.0,13,23.6,3.0,215.8,9.4,False
+60,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,124.7,74.4,41.2,94.4,38.9,27.1,8,,2.1,194.2,11.8,False
+44,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,76.5,126.9,80.0,97.4,37.1,14.8,15,9.0,0.9,100.6,13.2,False
+55,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,96.8,190.4,129.9,98.0,36.6,16.3,15,8.5,1.3,111.3,13.0,True
+37,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,134.0,85.6,57.8,96.6,37.8,23.6,12,15.0,2.5,479.6,14.3,False
+31,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,77.5,123.1,71.3,99.1,36.6,14.7,15,8.5,0.9,89.3,,False
+51,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,95.6,189.3,116.4,96.0,36.7,17.9,15,8.3,1.1,139.4,12.1,False
+72,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,89.0,185.8,114.2,97.6,36.6,18.1,15,9.5,1.6,120.6,13.5,False
+62,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,77.1,113.6,77.5,97.8,37.4,15.7,15,7.7,0.9,87.3,12.0,False
+65,M,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,124.7,103.8,65.7,96.0,36.3,24.3,11,14.2,2.9,570.1,14.6,False
+71,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,104.7,132.0,75.4,93.4,38.9,25.3,15,20.4,1.3,177.8,10.9,False
+54,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,93.4,134.4,79.9,93.0,38.3,25.6,15,20.8,0.9,140.5,,False
+53,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,68.6,112.1,78.7,99.4,36.6,14.5,15,7.8,0.7,90.7,14.0,True
+37,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,73.2,121.0,72.2,98.7,36.9,15.6,15,6.8,0.9,92.8,12.4,True
+31,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,96.7,194.5,121.8,96.9,37.2,16.2,15,7.1,1.6,157.2,12.3,False
+13,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,65.3,116.5,71.2,98.4,36.8,15.5,15,,0.7,100.8,13.4,True
+17,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,71.0,121.4,75.3,98.4,36.9,16.1,15,6.2,,91.0,14.4,False
+54,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,77.7,116.2,73.8,98.5,36.8,15.8,15,7.3,0.8,87.3,13.2,True
+51,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,78.0,120.4,74.4,98.2,36.6,14.2,15,7.2,0.9,82.4,12.6,False
+43,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,110.1,98.2,51.1,88.9,36.6,21.3,15,13.4,1.2,191.2,13.6,False
+55,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,123.9,99.8,66.0,94.9,37.4,29.8,10,13.9,2.7,482.7,15.9,False
+41,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,75.3,117.7,69.4,98.9,36.9,15.6,15,7.8,1.0,100.9,13.4,True
+68,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,103.8,127.3,74.7,98.2,39.0,20.5,15,16.2,0.8,109.6,13.0,False
+75,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,89.6,189.5,124.5,96.3,36.8,16.9,15,8.4,1.7,144.4,,False
+48,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,114.0,83.7,67.7,90.6,36.8,22.1,15,14.2,1.0,192.9,12.2,True
+54,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,78.9,122.3,73.4,99.1,36.8,16.7,15,7.5,0.9,95.1,13.4,False
+54,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,72.6,120.5,72.9,99.8,36.6,14.3,15,6.2,,100.0,12.8,False
+43,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,138.2,86.4,58.9,91.3,39.8,28.7,11,18.6,1.9,231.9,9.5,True
+30,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,104.5,121.5,80.7,94.1,38.2,25.5,14,16.5,1.0,178.6,13.1,True
+75,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,114.2,89.4,60.8,92.6,36.7,22.0,14,11.1,1.0,188.5,11.5,False
+53,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,67.5,113.2,73.7,99.4,36.8,14.2,15,8.0,0.9,100.8,12.7,False
+53,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,74.9,117.3,76.1,99.4,36.7,15.0,15,8.2,0.7,80.9,12.2,True
+51,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,69.2,121.7,72.5,98.2,36.8,14.8,15,8.9,0.9,97.2,,False
+31,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,70.7,129.9,76.4,98.7,37.4,15.7,15,8.1,0.8,108.7,13.7,True
+54,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,72.3,120.6,80.7,99.7,37.2,15.0,15,10.7,0.9,86.2,12.2,False
+17,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,69.7,113.5,77.5,99.1,36.7,14.2,15,6.6,0.9,94.1,13.6,False
+80,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,112.9,87.7,63.3,95.4,37.3,32.0,11,16.2,3.0,420.7,14.2,False
+10,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,75.0,116.5,70.8,98.9,36.9,15.5,15,8.4,0.9,95.3,12.3,True
+32,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,65.4,122.0,72.3,98.7,36.9,15.1,15,6.4,0.9,99.5,14.0,True
+70,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,94.4,186.5,113.8,97.7,36.7,19.5,15,7.3,1.6,159.4,12.0,False
+23,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,79.9,116.0,74.7,97.6,37.1,16.4,15,7.3,0.8,93.9,14.9,False
+11,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,79.0,124.5,74.7,98.9,36.7,15.1,15,6.5,0.9,97.4,13.9,True
+39,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,73.6,118.8,75.5,98.1,36.6,14.6,15,,0.8,83.8,15.9,False
+23,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,96.1,127.6,82.9,95.0,38.2,21.6,14,21.6,0.8,107.3,11.2,False
+22,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,66.8,118.0,73.7,99.2,36.6,15.2,15,6.0,0.8,93.7,14.3,False
+38,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,100.0,88.6,62.3,89.7,36.8,25.3,14,10.3,1.2,190.6,12.5,False
+75,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,90.5,114.2,71.1,94.1,38.9,21.1,15,17.3,1.0,108.1,12.8,False
+67,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,91.8,134.9,72.7,93.5,38.6,21.4,15,19.8,1.0,146.2,11.9,False
+38,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,91.9,204.0,119.5,97.7,36.7,17.3,15,7.9,1.3,127.6,13.2,True
+28,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,100.0,127.1,80.2,94.1,38.4,18.1,14,21.4,0.8,154.2,10.0,False
+40,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,92.4,185.9,104.3,94.9,36.9,17.3,11,8.9,0.9,146.1,14.8,False
+27,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,74.6,125.4,72.5,99.1,36.9,16.8,15,8.6,1.0,96.0,14.6,True
+51,F,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,123.1,86.3,64.8,88.7,37.0,20.4,14,11.3,1.1,209.9,,False
+75,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,126.1,82.7,59.1,92.7,37.0,27.6,15,12.0,1.4,179.4,13.8,False
+45,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,75.9,122.9,76.2,99.4,37.1,17.4,15,7.5,0.7,103.9,13.6,False
+35,M,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,133.3,78.2,40.3,94.3,39.7,26.9,12,,2.6,239.1,11.8,False
+64,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,102.6,110.7,72.6,92.4,38.8,19.1,14,14.5,1.2,105.8,10.5,True
+19,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,72.4,115.4,73.7,98.8,36.7,14.1,15,8.9,0.7,91.0,13.8,False
+64,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,88.8,206.9,127.5,97.7,36.6,18.1,15,9.3,1.4,133.5,12.1,True
+12,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,70.8,112.2,69.0,98.6,36.7,16.4,15,,,103.0,14.4,True
+25,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,72.4,126.6,68.9,98.4,36.9,15.5,15,7.9,0.7,100.3,13.0,True
+41,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,93.9,126.5,84.9,98.9,39.1,20.3,15,21.8,0.8,98.6,,False
+64,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,108.0,130.5,76.7,95.6,39.4,20.0,15,20.0,1.2,134.3,12.5,True
+27,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,74.1,121.0,75.3,99.7,36.8,14.1,15,6.7,0.7,82.6,14.4,False
+68,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,92.7,130.2,76.4,93.9,38.6,24.1,14,18.9,0.9,,11.9,False
+48,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,65.0,117.4,71.8,99.7,36.6,14.7,15,6.6,1.0,104.7,12.9,True
+26,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,74.5,124.4,72.0,99.0,36.7,15.3,15,8.1,0.7,90.2,13.2,False
+19,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,90.4,211.3,120.1,96.1,37.0,18.1,15,9.2,1.7,137.1,12.7,True
+41,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,103.6,116.8,76.1,92.1,38.7,19.0,15,16.2,0.9,103.7,10.7,False
+30,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,92.9,120.7,76.8,94.6,38.7,23.8,14,16.3,1.3,155.0,13.5,False
+53,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,78.7,121.6,70.0,98.4,36.9,15.0,15,6.7,0.9,96.9,14.5,True
+30,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,68.3,122.1,72.9,99.1,36.8,15.3,15,7.6,0.8,103.1,12.8,False
+12,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,74.6,127.7,71.1,99.6,36.8,14.6,15,10.8,0.8,,14.6,True
+55,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,90.1,133.7,79.6,99.3,39.2,20.9,15,17.2,0.8,96.4,,True
+62,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,88.3,199.9,110.6,97.4,36.9,16.0,15,9.7,1.4,123.5,12.5,True
+33,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,87.4,205.3,129.2,96.2,37.0,18.1,15,9.3,1.3,,,False
+69,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,87.5,206.0,129.5,96.7,36.5,18.5,15,7.3,1.7,111.5,13.8,False
+41,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,74.7,113.9,73.7,99.3,37.2,16.3,15,8.2,0.8,101.4,14.3,True
+19,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,75.7,113.9,78.7,99.2,36.9,15.7,15,6.1,0.8,103.8,15.5,True
+29,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,75.9,124.9,70.2,98.6,36.9,15.1,15,,0.7,82.2,14.7,False
+26,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,82.3,205.8,122.3,96.2,36.6,17.3,15,10.6,,150.1,11.3,True
+55,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,100.9,128.3,83.9,94.7,39.3,19.9,14,14.2,1.3,161.2,11.0,False
+26,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,92.8,125.8,86.5,99.0,38.1,20.1,15,18.2,1.0,90.9,13.6,False
+52,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,68.2,117.3,76.1,99.6,37.1,15.9,15,10.4,0.7,99.6,12.7,False
+26,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,93.0,198.3,118.8,97.5,36.9,19.8,15,10.3,1.6,,11.5,True
+79,F,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,99.6,87.4,61.2,90.2,36.8,22.1,14,11.0,1.1,198.7,11.9,True
+65,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,123.5,102.0,55.7,92.4,37.0,30.4,13,10.4,1.1,132.6,,False
+41,F,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,101.0,88.1,62.4,92.8,36.8,23.2,15,12.7,1.0,178.8,12.2,False
+56,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,71.3,118.7,76.8,98.9,36.7,15.1,15,8.6,0.7,95.7,15.9,False
+51,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,141.7,82.0,57.2,91.0,39.7,28.5,10,20.9,2.6,201.7,9.6,False
+46,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,107.9,123.8,84.3,93.8,38.5,24.3,15,21.7,1.0,104.7,13.4,False
+45,M,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,124.0,84.0,47.7,90.2,39.6,26.0,11,18.2,3.2,256.3,10.0,True
+50,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,96.1,216.8,120.0,98.3,37.0,19.4,15,10.8,1.4,115.5,13.3,True
+49,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,109.7,86.4,57.7,85.9,37.1,26.5,15,12.8,1.0,114.2,13.4,False
+32,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,78.0,118.1,80.2,97.9,37.2,14.7,15,10.9,0.8,97.2,13.1,False
+28,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,106.9,131.3,76.3,99.2,38.3,18.6,15,17.5,0.7,94.7,12.8,False
+47,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,70.7,115.3,68.2,98.4,36.8,16.0,15,6.7,0.9,87.3,15.0,False
+46,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,69.4,127.0,71.1,99.5,37.3,15.5,15,,1.0,106.4,14.6,False
+32,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,101.1,115.7,84.3,96.0,39.5,18.1,15,14.4,0.9,168.8,10.2,False
+73,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,136.2,76.2,48.8,93.5,40.0,24.9,10,20.5,2.2,176.4,11.3,True
+11,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,73.9,110.6,74.9,98.1,36.9,14.5,15,6.5,0.9,91.6,13.0,True
+6,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,82.1,114.0,73.5,97.2,37.1,16.5,15,9.7,1.0,86.1,14.5,True
+71,M,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,103.2,204.0,110.0,93.6,37.5,20.7,11,12.3,1.3,160.2,,False
+27,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,97.5,123.4,75.7,95.8,38.4,21.2,14,17.5,0.9,144.5,10.1,False
+62,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,103.5,133.0,85.1,99.2,38.4,18.4,15,17.7,0.9,102.7,14.7,True
+27,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,76.7,121.3,77.9,99.6,36.6,15.4,15,,1.0,85.4,14.6,True
+54,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,77.1,128.9,70.5,97.4,37.0,14.3,15,9.9,1.0,92.7,12.6,False
+45,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,70.9,115.1,77.2,99.3,36.5,15.8,15,8.7,0.8,84.5,13.8,False
+64,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,101.7,124.2,72.2,97.4,38.3,20.2,15,15.2,0.9,126.3,12.0,False
+44,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,94.0,126.0,84.3,97.3,38.3,18.4,15,20.4,,100.2,13.6,False
+24,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,98.9,189.1,120.3,97.0,36.8,16.6,15,10.8,1.8,105.8,13.5,True
+18,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,81.9,116.9,81.7,97.7,37.1,14.2,15,7.4,0.7,106.2,14.4,False
+57,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,94.2,134.0,74.9,95.7,38.4,25.4,15,21.6,1.2,121.8,13.9,True
+67,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,102.5,116.3,76.9,95.4,38.9,18.0,15,20.1,1.0,110.5,12.5,True
+65,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,92.9,189.8,113.8,96.6,36.8,17.4,15,7.7,1.1,100.1,12.1,False
+12,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,68.0,113.4,70.9,99.1,36.9,14.8,15,,1.0,101.8,14.9,False
+36,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,74.8,122.9,69.2,99.2,36.7,15.3,15,6.5,0.8,,13.6,False
+43,F,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,95.9,96.9,67.5,89.4,36.9,21.5,15,14.8,1.2,146.7,11.4,True
+65,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,95.4,209.4,114.2,97.3,36.9,17.5,15,9.2,1.3,105.2,13.4,True
+57,M,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,120.0,95.9,60.2,85.0,37.5,22.1,15,12.5,1.1,111.6,11.4,True
+58,M,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,109.2,87.1,56.3,92.0,37.2,22.3,14,9.8,1.0,112.6,11.4,False
+18,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,91.3,129.6,86.4,99.2,38.4,21.0,15,21.0,0.8,129.7,13.9,True
+76,F,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,111.4,97.7,59.7,96.3,36.3,33.6,10,17.0,2.4,460.6,12.3,False
+19,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,66.2,115.6,75.4,99.8,36.8,15.1,15,7.8,0.9,86.2,14.8,False
+43,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,106.5,125.1,70.4,92.8,39.4,21.1,14,16.6,1.0,113.7,12.6,True
+53,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,74.0,116.9,75.1,99.5,36.9,14.7,15,8.0,0.9,86.6,12.7,True
+73,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,139.7,82.5,50.5,92.5,39.5,25.5,12,18.7,3.3,193.1,10.2,False
+30,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,92.4,134.6,87.5,97.1,38.5,20.2,15,,0.8,93.6,14.7,True
+40,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,86.0,195.3,114.3,98.2,36.9,16.9,15,8.5,1.4,132.3,13.7,False
+27,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,97.0,134.4,73.6,97.7,39.2,18.5,15,19.4,0.8,127.7,13.9,False
+72,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,142.1,84.6,55.3,92.2,39.5,29.7,9,26.8,1.9,261.7,10.4,False
+62,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,96.9,117.4,80.4,98.7,38.7,21.9,15,15.4,1.0,124.5,12.8,False
+21,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,98.5,111.9,73.7,92.7,38.6,23.0,14,14.0,1.0,102.0,10.3,True
+36,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,107.8,131.2,82.0,97.9,37.9,19.0,15,16.4,1.0,113.1,12.0,True
+57,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,93.9,212.7,119.5,96.4,36.6,17.1,15,7.3,1.2,142.4,,False
+43,M,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,110.2,99.3,68.7,92.4,36.7,29.1,13,11.6,1.0,136.8,12.6,False
+30,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,77.5,122.2,76.7,99.7,36.6,16.6,15,9.0,0.8,,13.5,False
+18,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,67.1,119.3,79.2,100.0,37.0,14.4,15,7.1,1.0,80.9,14.6,False
+37,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,82.4,128.0,76.5,99.9,36.9,15.5,15,7.4,1.0,101.5,14.5,False
+16,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,68.1,120.1,69.4,98.8,36.8,15.5,15,6.7,0.8,96.2,14.2,False
+63,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,120.4,91.2,59.6,94.1,36.7,27.7,14,11.0,0.9,209.9,13.0,True
+65,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,89.7,131.7,73.9,98.3,38.8,17.9,15,14.3,1.0,96.1,,False
+61,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,72.3,120.6,75.8,99.5,36.5,14.6,15,6.7,1.0,95.0,13.5,False
+64,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,77.8,120.6,77.2,98.6,37.0,14.1,15,7.3,0.8,80.2,13.9,False
+70,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,128.5,87.2,59.7,85.2,37.6,27.6,15,,1.1,133.6,12.4,True
+27,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,92.5,192.0,111.3,96.5,37.1,18.1,15,10.6,1.8,143.1,11.5,True
+44,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,104.8,130.9,78.6,97.7,39.1,18.5,15,17.2,1.0,100.7,14.1,True
+79,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,133.5,86.1,48.8,92.2,39.2,27.0,8,25.5,2.8,224.1,10.3,False
+51,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,67.1,112.1,71.3,99.6,36.9,14.9,15,,0.9,93.9,12.7,False
+45,F,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,116.3,94.5,68.6,90.8,37.0,22.3,14,14.1,1.2,161.0,12.8,False
+41,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,66.8,114.5,71.9,98.3,37.0,15.6,15,8.8,1.0,102.2,14.7,False
+36,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,74.3,121.1,72.9,98.2,36.8,16.4,15,,,92.5,13.8,True
+18,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,85.9,190.3,114.1,96.1,37.1,18.4,15,8.2,1.5,103.6,13.3,False
+57,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,90.8,117.9,71.9,93.0,38.4,22.5,14,21.8,1.2,112.3,12.8,False
+65,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,73.5,115.9,73.8,99.5,36.8,16.0,15,7.0,0.8,93.7,14.2,False
+44,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,106.2,112.7,76.6,95.4,38.4,20.8,15,19.3,1.0,134.3,11.6,True
+28,F,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,69.6,120.1,74.8,99.9,36.7,14.7,15,8.3,0.9,83.5,13.4,False
+27,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,77.8,125.6,78.8,98.8,37.0,14.1,15,9.9,0.7,,14.6,True
+50,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,73.2,111.9,74.5,97.0,36.9,15.0,15,7.8,0.9,88.6,,False
+36,F,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,115.0,86.6,72.4,91.0,36.8,29.8,13,11.3,0.9,105.3,12.1,False
+28,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,77.4,125.8,70.5,99.9,36.7,15.0,15,8.7,0.9,,12.9,False
+57,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,98.5,201.8,116.2,97.1,37.1,19.6,15,9.9,1.8,155.0,13.4,True
+12,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,84.9,128.2,72.4,97.6,37.2,15.4,15,9.3,0.9,94.9,14.3,False
+26,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,88.7,117.8,85.7,97.6,38.0,19.3,15,21.9,1.0,94.0,13.2,True
+55,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,94.2,121.8,74.4,98.0,38.6,18.4,15,17.8,0.8,120.7,13.3,True
+49,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,104.3,112.6,71.1,94.3,38.5,21.6,15,19.2,0.9,149.1,12.2,True
+69,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,130.6,79.3,54.6,94.0,40.5,25.0,11,22.7,3.4,171.6,11.4,False
+69,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,122.5,86.0,51.7,93.4,36.8,23.2,14,10.3,,168.6,11.1,False
+47,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,96.0,116.3,77.5,98.8,38.1,20.4,15,14.9,0.9,105.9,11.4,True
+52,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,85.9,188.8,124.1,98.5,36.8,17.7,15,7.1,1.1,143.9,13.8,True
+29,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,77.3,117.5,81.3,98.5,37.1,17.6,15,,0.7,98.4,13.0,True
+59,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,105.1,99.7,59.5,92.0,36.9,23.0,15,12.7,,126.6,13.7,False
+41,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,84.2,207.7,123.0,97.3,36.9,19.2,15,10.2,1.8,149.0,11.4,True
+21,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,68.2,123.9,76.9,98.1,36.6,14.9,15,,0.9,84.5,12.4,False
+20,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,109.9,128.0,83.2,93.1,38.6,25.1,14,18.2,1.0,100.7,13.5,True
+39,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,129.0,73.8,59.0,95.5,39.5,26.3,13,25.3,2.3,279.5,10.0,False
+20,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,76.4,120.6,71.8,97.1,37.3,17.1,15,10.8,0.8,108.1,14.6,False
+55,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,107.4,130.8,76.6,99.9,38.5,20.1,15,14.3,1.1,107.3,12.4,False
+44,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,97.1,195.2,113.2,97.2,36.6,17.6,15,9.7,1.3,114.7,12.9,False
+19,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,101.6,132.2,81.9,98.3,38.7,17.1,15,,0.9,122.8,12.6,True
+53,F,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,118.1,91.3,56.4,98.8,37.7,30.1,10,15.2,2.2,519.6,14.2,False
+15,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,73.3,126.4,68.2,99.1,36.6,16.5,15,,1.0,,15.8,False
+68,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,99.3,176.3,116.2,97.3,37.4,16.4,12,12.0,1.2,140.8,12.4,True
+47,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,80.9,124.0,70.6,98.0,37.0,17.5,15,10.2,0.8,,14.6,False
+21,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,91.5,124.4,82.8,95.7,38.9,21.2,14,21.5,1.0,105.4,11.0,False
+33,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,74.6,120.0,79.4,97.9,37.2,14.2,15,8.6,0.8,93.0,13.5,True
+58,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,89.0,178.9,116.4,93.1,37.4,20.1,11,12.4,1.0,189.5,13.4,False
+52,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,120.2,101.8,72.2,86.1,37.2,24.6,15,13.4,0.9,127.6,12.1,True
+45,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,71.2,121.5,72.1,99.2,37.0,14.1,15,6.9,,,14.6,False
+67,M,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,126.1,87.0,70.4,91.7,37.6,22.4,14,10.1,0.9,106.9,12.5,False
+57,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,136.0,81.8,51.6,91.0,39.9,33.0,10,18.8,2.7,235.0,11.9,False
+30,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,88.9,206.2,118.0,97.8,36.6,17.7,15,10.8,,158.2,12.9,False
+48,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,86.9,203.4,115.9,94.8,37.3,16.7,9,12.1,0.9,168.8,13.0,False
+64,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,97.3,126.5,81.1,98.6,38.0,18.3,15,19.8,0.9,105.5,11.2,True
+22,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,68.5,120.2,76.9,99.0,36.6,14.4,15,8.0,0.8,92.6,12.5,False
+58,M,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,111.6,101.8,66.6,98.3,37.0,23.5,14,14.4,2.3,419.2,13.3,False
+63,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,115.2,93.0,53.5,93.5,36.7,25.4,15,12.8,1.0,168.1,12.0,False
+52,F,"Type 1 diabetic, 3 days of polyuria and polydipsia. Nausea, vomiting. Kussmaul breathing. Fruity odour on breath.",Diabetic Ketoacidosis,Critical,0,122.4,93.1,62.3,95.8,36.7,25.9,14,14.2,1.9,533.6,15.0,False
+65,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,71.3,110.9,71.5,99.1,36.8,15.9,15,6.8,0.9,81.8,12.3,True
+46,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,81.8,189.9,128.1,98.4,36.9,17.5,15,8.4,1.5,127.7,12.4,True
+7,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,76.6,114.8,72.6,99.1,37.0,16.1,15,8.9,,87.1,15.5,False
+50,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,67.5,122.2,79.2,99.0,36.9,16.4,15,7.2,0.9,81.1,14.0,False
+30,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,73.4,114.4,78.7,98.1,36.9,14.5,15,6.7,0.8,103.7,13.3,False
+49,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,99.0,84.5,53.0,89.9,36.6,20.5,15,10.4,1.0,187.2,11.8,False
+5,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,78.1,119.5,80.0,99.2,36.9,15.4,15,10.5,0.9,105.4,13.0,True
+34,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,77.5,124.8,79.6,98.9,37.1,15.1,15,7.8,0.7,93.0,12.9,True
+20,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,101.6,133.1,70.6,92.6,39.0,21.8,14,17.2,1.0,175.2,12.6,True
+22,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,94.6,207.0,129.7,97.5,37.0,19.7,15,8.1,1.2,136.7,12.6,False
+43,M,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,97.0,202.3,119.0,93.8,37.0,20.7,14,8.4,0.9,162.8,12.9,False
+30,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,100.9,110.5,70.7,94.2,38.3,25.1,15,20.5,1.2,143.5,11.9,True
+55,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,97.5,121.7,86.4,97.6,38.3,17.0,15,21.2,0.9,126.0,11.4,False
+45,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,71.3,124.5,74.5,98.3,37.3,14.9,15,7.9,1.0,106.8,12.2,False
+29,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,96.5,120.4,87.1,98.6,38.9,20.7,15,19.1,0.8,103.3,11.3,False
+75,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,89.5,122.5,74.3,99.9,38.7,21.3,15,16.0,1.1,110.9,14.3,False
+49,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,108.2,118.5,79.0,95.4,39.1,19.0,15,17.5,1.1,135.0,12.9,False
+54,M,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,128.0,88.9,44.0,91.9,40.4,33.7,10,26.4,,211.7,11.6,False
+75,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,106.4,118.7,71.6,95.7,39.1,25.5,14,17.4,,171.4,10.7,False
+46,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,116.5,89.9,68.9,87.4,37.6,22.8,15,10.0,0.8,119.8,13.4,False
+64,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,82.0,125.1,81.2,99.6,36.9,16.2,15,10.1,0.9,98.3,12.2,False
+5,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,68.8,117.9,76.5,99.7,36.9,15.2,15,6.5,0.8,104.7,12.6,False
+5,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,69.4,126.9,77.1,98.7,36.9,14.5,15,8.5,0.7,,14.2,False
+17,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,68.3,110.4,69.2,98.0,36.6,15.3,15,6.5,,90.6,13.6,False
+65,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,70.2,127.6,74.1,99.2,37.1,16.5,15,9.2,0.9,97.7,13.8,True
+32,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,99.4,120.6,76.3,97.3,37.9,17.9,15,15.4,0.7,109.6,12.2,True
+44,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,96.2,125.4,85.8,97.6,38.5,18.8,15,18.8,0.8,96.8,13.6,False
+80,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,103.2,205.8,111.9,93.6,37.3,16.0,9,11.1,1.1,123.4,,True
+16,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,75.7,126.6,70.0,98.9,37.0,16.0,15,7.8,0.9,95.3,14.3,True
+44,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,97.7,118.5,74.5,98.5,38.9,21.7,15,20.4,1.0,101.3,14.4,True
+60,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,129.1,90.5,67.1,86.6,37.7,27.7,14,9.3,1.0,145.8,11.9,True
+8,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,75.1,124.8,76.4,98.1,37.0,15.5,15,8.9,0.8,98.3,13.6,True
+60,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,90.0,129.2,85.3,97.2,37.9,21.3,15,19.7,1.0,113.3,12.0,True
+59,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,76.4,119.4,76.2,100.0,36.7,14.1,15,8.1,0.7,90.6,12.6,False
+79,F,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,109.8,101.8,71.3,91.6,36.7,29.7,13,13.8,0.9,103.6,,False
+63,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,105.7,118.5,75.4,95.4,38.8,25.1,15,15.1,0.9,179.4,14.0,True
+58,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,82.6,213.4,128.4,97.4,36.8,18.7,15,8.2,1.6,132.0,13.1,False
+31,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,75.7,116.2,74.2,99.7,37.0,14.4,15,7.4,0.8,96.1,12.3,True
+36,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,107.5,111.3,84.7,96.0,38.5,18.9,15,14.4,1.1,170.7,10.2,False
+33,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,97.5,130.7,73.6,99.2,38.7,17.1,15,16.2,1.0,116.7,12.1,True
+22,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,74.3,113.9,80.8,99.3,37.1,15.7,15,7.5,0.9,88.2,13.5,False
+56,F,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,117.5,108.5,69.7,97.9,37.5,31.7,13,17.4,2.5,591.5,13.1,True
+32,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,74.8,119.0,72.9,98.4,36.8,15.0,15,8.3,0.7,91.4,14.4,True
+60,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,80.5,206.6,114.4,97.1,36.7,18.4,15,8.8,1.5,108.4,13.2,False
+53,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,92.9,216.1,122.5,97.9,36.8,17.4,15,8.4,1.6,108.8,13.7,False
+13,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,74.0,115.2,73.0,99.5,36.5,15.4,15,7.4,0.8,90.5,12.3,False
+6,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,68.0,122.0,73.1,98.8,36.9,16.0,15,8.8,0.8,93.5,12.6,False
+42,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,106.2,130.1,77.4,99.5,38.2,20.5,15,19.3,0.8,,13.6,False
+61,M,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,122.5,83.7,50.9,95.9,39.4,28.0,9,27.4,3.2,213.4,11.1,False
+18,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,100.6,132.6,84.3,98.2,37.8,21.2,15,16.0,0.9,98.4,14.3,False
+63,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,130.0,96.9,58.5,88.8,37.0,23.5,14,,1.4,176.6,13.6,True
+37,F,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,134.9,85.8,52.9,90.4,39.0,30.8,10,23.2,2.5,209.1,10.1,True
+43,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,96.1,125.8,73.5,93.3,38.8,22.1,14,21.4,,104.1,12.5,True
+37,F,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,126.0,97.5,64.4,95.4,37.9,28.8,13,,1.5,553.4,14.3,True
+31,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,76.5,116.1,77.5,99.7,37.0,15.3,15,10.0,1.0,87.7,12.5,True
+68,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,107.4,120.4,78.6,94.3,39.4,24.3,15,21.1,0.8,109.8,13.3,False
+55,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,73.0,122.0,79.4,97.3,37.2,17.3,15,10.8,0.8,101.8,13.4,True
+54,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,90.0,124.8,83.1,97.6,38.5,20.9,15,,0.9,112.8,11.1,True
+57,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,93.3,200.0,110.4,98.9,37.1,16.7,15,8.0,1.3,154.0,11.2,False
+63,M,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,82.2,180.7,104.5,96.9,36.9,18.3,11,10.6,1.0,159.5,13.6,True
+61,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,96.5,125.7,79.4,95.7,38.7,21.4,14,20.4,0.9,133.3,10.7,True
+71,M,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,113.6,86.3,74.9,92.5,36.6,31.3,13,12.6,1.0,128.9,13.4,True
+27,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,76.0,115.5,76.3,99.4,36.5,15.5,15,6.1,0.8,,13.5,False
+20,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,65.2,124.7,73.5,98.0,37.0,15.8,15,8.6,1.0,95.8,13.1,False
+35,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,122.3,85.4,67.7,93.4,36.5,26.5,15,14.8,1.3,153.4,13.3,False
+54,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,70.6,111.7,73.5,99.5,36.9,15.0,15,6.5,0.8,100.9,13.4,True
+65,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,68.4,124.3,75.0,97.2,36.9,14.1,15,8.3,1.0,,14.0,False
+63,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,75.6,118.3,73.4,98.7,36.5,16.9,15,6.9,1.0,81.3,14.2,True
+59,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,103.8,119.5,78.0,97.9,39.0,16.9,15,19.6,0.8,95.3,12.8,False
+62,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,73.8,126.7,72.3,99.4,36.8,14.2,15,6.2,0.9,,14.9,False
+49,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,99.7,187.9,125.0,97.6,36.7,19.0,15,8.0,1.6,158.1,,False
+44,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,77.5,123.7,75.5,99.5,36.6,14.9,15,6.6,0.9,92.6,13.2,False
+53,M,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,128.9,84.9,46.1,94.7,39.4,26.6,10,26.1,2.0,200.3,9.5,False
+45,F,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,93.3,120.8,74.7,93.6,39.2,22.6,15,20.8,0.9,152.8,10.1,False
+64,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,99.3,127.9,77.3,99.4,39.2,16.6,15,14.9,0.8,99.3,14.9,True
+36,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,66.7,122.9,73.3,99.9,36.6,14.6,15,7.3,0.7,94.8,12.3,False
+34,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,77.7,112.9,71.0,99.3,36.7,16.5,15,6.8,1.0,86.9,15.1,False
+32,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,77.6,122.9,70.0,98.8,36.6,15.1,15,7.5,0.9,89.3,15.4,True
+42,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,107.9,130.1,84.1,93.5,38.2,23.4,14,21.8,1.1,168.4,12.2,False
+66,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,98.5,111.9,71.9,92.1,38.9,19.0,14,21.7,1.0,144.4,11.8,False
+29,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,91.8,218.3,126.7,96.5,36.6,19.3,15,9.7,1.2,140.8,11.1,False
+52,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,78.0,120.3,81.9,97.8,37.3,15.3,15,7.4,0.8,93.2,12.6,False
+64,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,92.4,186.9,123.1,96.0,36.8,17.1,15,8.5,1.6,103.6,12.6,False
+31,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,73.8,113.9,69.3,98.9,36.6,14.2,15,6.9,0.8,83.9,13.0,False
+68,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,93.5,194.3,113.0,98.4,37.0,17.1,15,10.4,1.2,114.8,13.8,False
+64,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,78.9,120.8,72.7,98.9,36.6,15.7,15,7.6,0.8,104.9,14.0,True
+20,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,94.7,214.7,120.6,96.2,36.8,18.1,15,9.6,1.2,133.9,13.9,True
+54,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,73.1,120.1,79.6,98.7,36.6,16.2,15,8.0,1.0,95.2,12.8,False
+6,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,75.9,110.8,74.7,99.8,37.2,14.6,15,8.5,0.8,92.7,13.6,False
+34,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,65.5,110.2,69.2,98.8,36.7,15.7,15,7.8,,84.0,12.4,False
+79,F,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,128.8,77.5,56.6,94.7,39.8,31.6,9,18.0,2.2,266.1,11.2,True
+71,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,103.9,121.4,82.7,95.9,38.4,21.0,14,20.0,1.2,149.0,12.2,True
+39,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,81.7,210.0,120.5,98.3,37.1,16.9,15,8.5,1.8,132.2,12.6,True
+25,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,82.9,118.8,79.7,97.4,37.0,17.9,15,,0.8,97.4,14.0,False
+37,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,124.1,92.6,64.3,96.3,37.3,28.9,11,14.3,1.6,401.6,13.3,False
+38,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,73.6,116.1,79.6,98.7,37.0,14.3,15,,1.0,85.0,14.0,True
+9,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,71.0,118.3,69.0,98.2,36.6,15.0,15,7.6,0.7,103.9,13.9,False
+49,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,96.7,207.5,105.4,94.8,37.3,20.9,11,9.3,0.8,174.1,14.6,False
+56,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,81.9,196.0,128.7,96.5,36.7,17.5,15,9.0,1.2,132.8,11.4,True
+54,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,67.5,122.2,69.6,98.4,36.8,14.3,15,6.7,0.7,,13.0,False
+25,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,72.1,122.2,74.4,99.3,37.1,15.8,15,7.1,0.9,86.2,12.2,False
+44,M,"Known T1DM presenting with vomiting, abdominal pain, and confusion. Glucose 480 mg/dL at home.",Diabetic Ketoacidosis,Critical,0,124.0,101.1,59.9,94.6,37.5,35.3,14,14.8,2.4,519.0,14.8,True
+47,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,99.8,84.1,56.5,92.6,36.9,22.5,14,10.8,,213.6,12.2,False
+35,M,"Confusion, chills, and vomiting for 18 hours. Fever of 39.8°C at home. Septic appearance, mottled extremities.",Septic Shock,Critical,0,123.5,84.3,54.4,90.6,39.8,25.9,11,20.9,3.2,,11.1,True
+17,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,67.6,116.9,77.6,98.3,36.9,14.5,15,6.2,1.0,91.2,13.3,False
+59,M,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,127.3,75.5,50.8,91.0,39.6,31.4,11,24.8,2.7,169.9,11.5,False
+40,M,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,97.2,123.7,75.0,94.7,38.5,24.0,15,18.4,0.9,118.2,,True
+64,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,100.8,115.2,72.1,94.2,39.2,24.9,15,19.0,1.3,177.6,11.0,False
+54,F,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,70.1,123.4,73.3,97.2,37.3,15.4,15,7.7,0.9,105.9,13.0,False
+52,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,111.7,89.2,73.9,92.0,36.9,28.6,14,12.4,1.1,101.6,13.3,False
+39,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,139.8,72.3,53.1,95.3,39.7,32.7,11,25.1,2.9,220.7,10.8,False
+36,M,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,75.0,118.4,69.2,98.7,36.5,15.7,15,8.5,1.0,85.7,15.1,False
+15,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,75.4,124.7,70.7,98.1,37.0,14.5,15,6.9,0.8,92.6,13.7,True
+14,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,77.8,116.5,71.6,98.8,37.0,14.1,15,8.1,0.8,88.5,14.0,False
+60,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,79.3,127.2,71.7,99.3,37.1,18.0,15,8.9,0.8,100.7,12.5,False
+80,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,108.8,189.0,108.8,94.7,37.4,17.6,14,10.4,1.0,149.1,13.7,True
+43,F,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,137.1,83.2,50.8,93.9,39.4,25.8,12,22.2,3.5,268.8,10.1,False
+74,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,109.6,100.3,65.2,88.2,37.5,23.3,15,13.8,,144.9,12.1,False
+29,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,94.0,131.0,83.8,99.8,39.1,19.6,15,14.2,1.0,115.9,12.6,False
+29,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,65.0,112.7,69.3,100.0,36.7,15.4,15,8.2,0.7,103.4,13.3,False
+43,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,107.7,116.0,71.8,95.2,38.6,22.7,15,14.9,1.2,166.3,13.7,False
+40,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,96.8,211.6,115.8,96.6,36.9,19.9,15,,1.3,151.2,12.9,True
+49,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,73.9,129.8,80.3,98.7,37.2,16.7,15,9.8,0.7,100.2,,True
+58,M,Unresponsive to verbal commands. Tachycardia and hypotension. Wife reports 2 days of fever and cough.,Septic Shock,Critical,0,142.1,71.3,48.0,94.3,39.6,28.1,11,19.4,2.0,204.3,9.1,False
+64,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,76.7,112.4,79.9,99.9,36.7,15.1,15,6.9,0.8,,12.8,False
+56,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,97.3,189.0,114.3,97.0,36.7,18.9,15,10.7,1.2,,11.1,True
+41,M,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,118.1,85.5,68.9,98.4,37.7,26.3,10,16.9,1.9,555.7,15.1,True
+33,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,92.6,201.7,123.9,96.4,36.9,18.3,15,9.0,,128.8,12.8,True
+41,M,Acute chest tightness radiating to left shoulder. Patient is diaphoretic and short of breath. ECG shows ST elevation in V1-V4.,STEMI,Critical,0,124.3,80.6,63.3,94.0,36.7,23.8,15,14.4,1.0,190.1,11.7,False
+48,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,92.2,121.3,83.5,99.2,38.9,20.3,15,,0.8,113.6,12.2,False
+77,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,115.3,93.8,63.8,89.1,37.0,22.0,15,11.6,1.0,203.1,11.8,True
+65,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,66.3,110.8,76.7,99.4,37.0,15.3,15,6.3,,89.6,14.6,True
+49,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,68.3,129.6,72.8,98.2,36.8,16.3,15,9.1,0.9,86.5,13.9,True
+37,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,76.4,125.2,72.9,99.1,36.6,15.5,15,,0.7,104.5,12.4,True
+66,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,116.4,97.8,65.5,92.1,36.7,27.0,14,10.4,1.1,130.1,,True
+53,M,Syncope followed by chest tightness and shortness of breath. DVT risk factors including oral contraceptive use.,Pulmonary Embolism,Critical,0,118.4,100.7,73.1,90.4,37.2,30.5,15,9.2,1.0,136.3,12.7,False
+39,F,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,81.7,209.1,127.4,96.3,36.6,18.2,15,8.6,1.4,114.1,,False
+38,F,"Productive cough with yellow sputum for 4 days, fever 38.5°C, right-sided pleuritic chest pain.",Pneumonia,Urgent,1,96.6,112.2,83.6,95.1,38.4,24.4,15,,1.0,108.8,10.3,True
+50,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,73.6,121.1,70.7,97.9,37.0,14.5,15,8.7,0.7,87.6,13.2,True
+40,F,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,107.0,91.9,61.3,90.2,37.4,28.1,14,9.7,0.9,131.6,13.4,True
+20,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,75.7,113.3,72.0,99.4,37.0,17.5,15,10.7,,96.5,12.1,False
+20,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,76.6,120.5,71.2,98.6,36.9,14.5,15,7.0,0.8,82.7,14.3,False
+52,F,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,86.4,186.0,110.9,98.5,36.7,19.0,15,9.0,1.4,137.0,12.5,False
+11,M,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,75.9,122.1,70.2,99.6,36.9,14.9,15,7.7,0.9,102.3,14.6,False
+63,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,68.9,110.2,73.3,97.0,37.1,16.9,15,10.9,0.9,107.1,12.7,True
+75,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,107.9,119.8,78.2,99.4,38.7,19.0,15,21.1,1.0,,11.8,False
+39,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,88.8,133.9,86.1,99.2,38.4,17.7,15,18.2,,105.4,14.7,True
+5,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,81.8,115.4,80.6,99.7,37.1,14.0,15,8.3,0.8,93.0,12.6,False
+64,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,101.1,132.7,77.4,97.6,38.4,18.2,15,15.6,1.0,123.3,12.0,False
+51,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,73.3,123.7,78.6,99.1,36.7,16.9,15,6.3,,93.4,12.4,False
+40,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,100.0,135.0,76.2,93.4,39.3,21.4,15,21.6,0.9,124.6,11.5,True
+27,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,91.1,134.4,80.7,98.5,38.7,17.8,15,16.4,0.9,95.8,12.6,False
+66,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,87.7,200.8,122.4,96.6,36.8,16.3,15,8.2,1.7,154.8,11.5,True
+60,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,83.7,186.9,117.0,96.4,36.5,18.3,15,,1.4,137.2,11.7,True
+39,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,85.3,190.9,111.3,96.1,37.4,20.6,12,12.9,1.0,176.3,14.8,False
+6,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,75.7,114.7,72.1,99.9,36.6,15.6,15,6.2,0.9,103.4,12.8,False
+63,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,100.7,116.7,76.9,99.3,39.0,19.8,15,17.7,0.9,118.7,14.8,False
+60,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,92.9,195.0,118.7,97.0,37.1,19.0,15,7.6,1.1,109.6,13.7,True
+31,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,66.3,110.6,76.8,98.9,36.7,15.5,15,8.9,0.9,96.6,14.7,False
+52,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,72.8,119.4,72.0,99.4,36.7,15.3,15,,0.8,84.7,13.1,True
+9,F,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,69.7,124.9,75.2,99.4,36.9,15.9,15,9.0,0.7,104.5,14.2,False
+41,F,"Missed insulin doses for 2 days. Presents with deep rapid breathing, altered mentation, and severe dehydration.",Diabetic Ketoacidosis,Critical,0,121.1,94.4,62.3,95.2,36.8,32.9,13,12.9,2.3,558.7,13.0,False
+42,M,Found by family with right arm paralysis and aphasia. Last known well 2 hours ago. History of atrial fibrillation.,Acute Stroke,Critical,0,85.7,171.3,111.0,94.9,37.1,19.7,13,,1.1,,11.7,True
+38,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,92.8,118.0,72.4,99.4,38.2,18.9,15,20.8,1.1,117.5,12.1,False
+63,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,101.2,172.4,96.7,93.2,37.0,19.1,11,8.4,1.0,157.1,,False
+41,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,65.1,114.8,69.5,99.7,36.8,15.5,15,8.5,0.9,80.2,12.1,False
+75,M,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,127.0,84.1,55.9,93.5,40.2,29.4,10,26.8,2.5,,10.3,True
+45,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,127.2,82.3,58.2,88.3,36.7,22.5,14,12.8,1.4,188.9,12.8,False
+19,M,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,76.7,115.2,74.5,97.2,37.1,14.2,15,10.2,0.9,102.7,12.9,False
+73,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,106.6,95.3,62.0,93.0,36.8,23.6,14,12.8,1.2,206.0,12.4,False
+68,M,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,80.4,173.6,97.8,95.9,37.1,21.7,13,9.0,1.0,148.5,14.6,True
+7,F,Right ankle pain after stepping off a curb. No distal neurovascular deficit. Normal sensation.,Ankle Sprain,Non-urgent,2,74.6,113.4,76.7,98.6,36.6,15.1,15,,0.8,102.1,,True
+65,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,99.8,118.8,78.2,98.3,38.9,20.8,15,18.6,0.8,119.5,12.3,False
+70,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,93.6,130.6,78.6,99.8,38.0,17.3,15,19.6,1.0,95.7,13.1,False
+50,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,125.1,91.4,57.3,92.8,37.0,27.6,14,13.0,1.0,214.7,13.9,True
+68,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,93.4,206.6,116.5,99.0,37.2,19.0,15,9.8,1.6,135.8,11.0,True
+7,F,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,84.2,121.8,75.3,97.2,36.8,16.8,15,11.0,,85.1,14.3,False
+57,M,Headache and dizziness with BP reading of 210/120 at pharmacy. No chest pain or neurological deficits.,Hypertensive Urgency,Urgent,1,84.1,207.0,115.4,97.9,37.0,18.9,15,9.6,1.5,140.6,12.4,False
+33,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,68.7,122.2,76.6,97.3,36.9,17.3,15,10.0,0.8,102.2,14.0,False
+18,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,75.8,115.6,72.4,99.5,36.9,14.8,15,6.7,0.7,,14.3,False
+51,F,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,91.8,116.1,74.9,98.4,38.0,18.8,15,22.0,1.1,116.3,11.6,False
+11,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,78.6,118.2,77.7,99.2,37.3,16.8,15,10.8,1.0,108.8,13.5,True
+49,F,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,94.0,126.6,77.4,93.0,38.6,24.9,14,19.4,1.3,106.1,12.5,False
+54,M,Sudden onset of 9/10 substernal chest pressure with diaphoresis. History of hypertension and diabetes. Looks pale and anxious.,STEMI,Critical,0,114.4,91.9,65.7,94.0,36.5,23.3,14,10.4,1.3,148.3,12.7,False
+42,M,Acute onset of inability to speak and right hemiplegia. Hypertensive at baseline. FAST positive.,Acute Stroke,Critical,0,85.0,181.6,99.7,97.2,37.2,21.2,9,10.5,1.1,160.8,12.5,False
+49,M,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,69.8,121.9,69.3,98.1,36.7,14.1,15,7.8,0.9,102.1,14.7,False
+13,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,76.5,111.8,69.4,99.4,36.8,14.7,15,,0.9,,12.9,False
+58,F,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,115.4,99.4,60.4,85.6,37.0,27.0,13,13.3,0.9,121.0,13.7,True
+61,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,98.9,113.1,84.6,93.5,39.0,21.1,14,17.9,1.1,152.1,10.3,True
+71,F,Sudden left-sided facial droop and arm weakness. Slurred speech. Onset 1 hour ago. No loss of consciousness.,Acute Stroke,Critical,0,94.1,186.3,103.0,93.5,36.9,18.5,12,10.8,,156.8,14.7,True
+50,F,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,70.6,114.6,77.3,98.3,36.8,15.1,15,7.8,0.8,81.1,12.4,True
+65,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,95.3,128.0,83.3,98.7,38.9,16.8,15,16.9,0.9,108.6,,True
+65,M,"Severe crushing chest pain radiating to the left arm and jaw, onset 45 minutes ago. Profuse diaphoresis. Nausea and vomiting.",STEMI,Critical,0,99.7,99.5,58.9,93.8,36.7,23.3,14,,1.3,179.3,11.9,True
+59,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,90.8,199.8,128.2,97.4,36.5,17.9,15,7.3,1.3,122.4,11.6,False
+33,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,84.0,126.4,81.0,97.4,36.9,15.5,15,7.9,0.8,,14.0,True
+18,F,"No bowel movement for 4 days, mild lower abdominal cramps. Soft abdomen. No red flags.",Constipation,Non-urgent,2,67.2,118.6,73.7,99.2,36.9,15.8,15,8.8,0.9,103.2,14.9,False
+40,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,95.7,128.2,83.2,97.3,38.8,16.3,15,18.9,1.0,126.0,11.7,True
+54,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,69.2,118.2,71.6,98.4,36.7,14.0,15,6.1,0.8,94.8,12.3,True
+60,M,"Lateral ankle sprain from fall. Minimal bruising, can hobble. Ottawa criteria negative for fracture.",Ankle Sprain,Non-urgent,2,69.4,114.0,79.1,100.0,36.6,16.8,15,6.5,0.7,,12.7,True
+30,M,Worsening dyspnoea and fever for 3 days. SpO₂ 94% on room air. Decreased breath sounds at right base.,Pneumonia,Urgent,1,102.6,133.2,74.1,95.3,39.3,22.7,15,14.5,1.1,144.7,10.6,False
+75,M,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,90.0,188.0,126.6,99.0,37.2,17.9,15,9.8,1.4,143.0,13.6,False
+28,M,"Periumbilical pain migrating to RLQ over 12 hours. Nausea, anorexia, fever. Rebound tenderness at McBurney's point.",Acute Appendicitis,Urgent,1,98.0,134.5,76.5,98.1,38.4,21.4,15,15.1,1.1,94.7,13.1,False
+55,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,71.5,123.0,70.5,99.4,36.7,15.9,15,,0.9,84.6,15.7,False
+63,F,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,107.4,115.0,81.0,99.9,38.0,17.7,15,14.1,0.8,101.8,12.6,True
+71,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,100.9,131.6,84.8,98.7,38.0,19.8,15,16.7,1.0,128.9,15.0,False
+34,F,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,97.4,123.2,84.9,98.0,38.3,17.1,15,17.6,0.8,114.8,13.3,True
+80,F,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,126.9,93.8,65.5,88.7,37.4,26.1,15,13.0,1.0,106.3,11.5,False
+22,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,68.4,121.5,74.0,98.3,36.9,16.2,15,6.8,0.8,100.9,12.1,False
+14,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,65.2,124.2,71.4,98.6,36.6,14.6,15,7.1,0.9,92.1,13.9,False
+53,M,"Congestion, sneezing, and mild headache for 3 days. Temperature 37.1°C. No shortness of breath.",URTI / Common Cold,Non-urgent,2,70.7,125.3,79.4,99.6,37.2,14.6,15,10.1,0.8,90.3,14.1,False
+63,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,119.5,102.4,71.9,85.7,37.8,28.3,15,11.0,1.1,122.7,13.1,False
+48,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,99.0,192.8,123.4,96.6,36.6,16.7,15,9.0,1.4,,11.6,False
+45,M,"Twisted ankle while playing cricket 2 hours ago. Mild swelling, no deformity. Able to weight-bear.",Ankle Sprain,Non-urgent,2,67.3,121.6,77.6,99.2,36.8,15.2,15,6.5,0.9,101.8,14.5,False
+61,M,"Pounding headache, nausea, and epistaxis. History of poorly controlled hypertension.",Hypertensive Urgency,Urgent,1,81.7,198.7,113.6,98.9,36.6,16.7,15,8.5,1.7,153.0,13.1,False
+52,M,Elderly patient with confusion and productive cough. Chest X-ray shows right lower lobe consolidation.,Pneumonia,Urgent,1,103.5,118.1,81.7,93.3,38.3,23.9,14,14.9,1.2,126.1,12.9,False
+6,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,73.9,116.1,69.9,98.0,36.6,14.1,15,8.2,0.8,83.3,14.7,False
+70,M,"Right lower quadrant pain for 16 hours, worsening with movement. Low-grade fever, elevated WBC.",Acute Appendicitis,Urgent,1,91.2,124.6,73.1,97.6,38.8,18.6,15,14.6,0.7,99.5,12.8,False
+50,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,109.0,99.6,69.9,89.4,36.7,26.8,14,12.9,0.8,134.1,13.9,True
+54,F,Sudden dyspnoea and right-sided chest pain. Left leg swollen for 3 days. SpO₂ 88% on room air.,Pulmonary Embolism,Critical,0,105.2,102.3,70.6,92.8,37.7,29.5,14,10.2,1.0,114.8,12.7,False
+63,M,"Altered mental status, high fever, and hypotension. Came from nursing home. Urine appears dark and cloudy. Rigors.",Septic Shock,Critical,0,140.8,84.6,47.0,92.1,40.1,29.2,10,24.9,2.6,195.5,12.0,False
+41,F,"Runny nose, sore throat, mild dry cough for 2 days. No fever. Well appearing, good oral intake.",URTI / Common Cold,Non-urgent,2,72.0,119.0,70.0,99.0,37.3,17.3,15,10.5,0.9,91.7,14.2,False
+51,M,Sore throat and mild fatigue for 24 hours. No dysphagia or drooling. Tolerating fluids.,URTI / Common Cold,Non-urgent,2,84.8,112.0,72.8,99.9,37.4,15.9,15,8.3,0.9,102.5,12.3,True
+27,M,"Young male with 10/10 right lower abdominal pain, vomiting, and fever for 8 hours. Unable to walk straight.",Acute Appendicitis,Urgent,1,95.8,121.4,78.6,98.0,38.3,21.0,15,21.6,1.0,97.3,11.2,True
+25,F,"Severe headache and blurred vision. Known hypertensive, stopped medications 2 weeks ago. BP 195/115.",Hypertensive Urgency,Urgent,1,96.6,192.4,124.7,98.4,37.0,16.2,15,9.5,1.7,103.5,11.9,False
+49,F,Acute onset pleuritic chest pain and haemoptysis. Recent long-haul flight. Tachycardic and hypoxic.,Pulmonary Embolism,Critical,0,106.0,98.0,57.1,92.7,37.3,24.7,15,,0.9,123.5,13.7,True
+36,M,"Straining at stool, hard stools for 1 week. No blood. Well-appearing.",Constipation,Non-urgent,2,68.2,120.7,70.3,98.5,36.5,14.1,15,7.8,,100.4,14.1,True
+10,F,Bloating and discomfort. Last bowel movement 5 days ago. On opioids for back pain.,Constipation,Non-urgent,2,74.8,124.4,71.2,98.2,36.8,15.8,15,6.6,0.8,88.8,12.8,False
